@@ -1,0 +1,50 @@
+// ******************
+//      CONSTANTS
+// ******************
+$yellow:#f2aa1f;
+$green:#a9c038;
+$blue:#183e6b;
+
+$feature1_color: $yellow;
+$feature2_color: $green;
+$feature3_color: $blue;
+
+$feature_color_list : $feature1_color, $feature2_color, $feature3_color;
+
+/****************
+   HOME CONTENT
+ ****************/
+body {
+	text-transform: uppercase;
+}
+
+@for $i from 1 through 3 {
+	.feature#{$i} {
+		background-color: nth($feature_color_list, $i);
+	}
+}
+
+div.feature {
+	margin-bottom: 21px;
+	
+	img {
+		width:100%;
+	}
+}
+
+.featureMaster { 
+	display:table;
+	height:100px;
+	width:100%;
+	
+	span {
+		display:table-cell;
+		vertical-align:middle;
+		text-transform:uppercase; 
+		padding:0 22px;
+		color:white;
+		font-size:1.1em;
+	}
+}
+
+@import "carousel";
