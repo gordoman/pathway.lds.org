@@ -2,12 +2,12 @@
 //   CONSTANTS
 // *************
 // Colors:
-$turquoise:#4899A5;
-$red:#da462f;
-$teal:#7fc8b7;
-$green:#a6bc37;
-$navy_blue:#003c6c;
-$pathway-orange: #f3a91e;
+$turquoise:#1B8290;
+$red:#DE4931;
+$teal:#7FC8B7;
+$green:#AAC137;
+$navy_blue:#153F6B;
+$pathway-orange: #F4AA1F;
 $nav_hover_color: #fff !important;
 
 // Navigation:
@@ -88,6 +88,10 @@ $nav_color_list: $nav1_color, $nav2_color, $nav3_color, $nav4_color, $nav5_color
 						}
 				}
 				&.nav-#{$i} {
+					a {
+						border-bottom: solid 6px;
+						border-bottom-color: nth($nav_color_list, $i);
+					}
 					a:hover {
 						background-color: nth($nav_color_list, $i);
 						color: $nav_hover_color;
