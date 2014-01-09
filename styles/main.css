@@ -570,6 +570,16 @@ body {
   width: 45px;
   height: 45px;
 }
+#sidebar .sidebar-caret {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 17px;
+  left: -24px;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-right: 24px solid #dedede;
+}
 #sidebar .header {
   padding-top: 80px;
 }
@@ -601,10 +611,10 @@ body {
   padding-left: .8em;
 }
 #sidebar .nav li.active {
-  color: #cb4830;
+  color: #de4931;
 }
 #sidebar .nav li.active a, #sidebar .nav li.active a:hover, #sidebar .nav li.active a:visited {
-  color: #cb4830;
+  color: #de4931;
 }
 #sidebar .nav li.active .nav {
   display: block;

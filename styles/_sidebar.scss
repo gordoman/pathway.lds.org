@@ -2,10 +2,10 @@
 //   CONSTANTS
 // *************
 // Colors:
+@import "colorScheme";
+
 $dark_gray:	#ddd;
 $link_color: #fff;
-$red: #cb4830;
-$gray-aside:darken(#f7f7f7,10%);
 
 // ************
 //    MIXINS
@@ -75,13 +75,24 @@ body {
 #sidebar {
 	$logo_size:45px;
 	position: relative;
-	background-color: $gray-aside;
+	background-color: $sidebar-gray;
 	//@include padding(all, 0);
 	//@include padding(left right, 10px);
 	
 	img {
 		width: $logo_size;
 		height: $logo_size;
+	}
+	
+	.sidebar-caret {
+		position: absolute;
+		width: 0; 
+		height: 0; 
+		top: 17px;
+		left: -24px;
+		border-top: 24px solid transparent;
+		border-bottom: 24px solid transparent; 
+		border-right: 24px solid $sidebar-gray;
 	}
 	
 	.header {

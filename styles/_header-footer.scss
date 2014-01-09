@@ -2,13 +2,7 @@
 //   CONSTANTS
 // *************
 // Colors:
-$turquoise:#1B8290;
-$red:#DE4931;
-$teal:#7FC8B7;
-$green:#AAC137;
-$navy_blue:#153F6B;
-$pathway-orange: #F4AA1F;
-$nav_hover_color: #fff !important;
+@import "colorScheme";
 
 // Navigation:
 $nav1_color: $turquoise;
