@@ -424,6 +424,9 @@ div.feature img {
     padding-left: 64px;
   }
 }
+.hero.no-icon {
+  padding-left: 0 !important;
+}
 .hero img {
   left: 0 !important;
   top: 6% !important;
@@ -433,6 +436,9 @@ div.feature img {
   .pf-section {
     padding-left: 64px;
   }
+}
+.pf-section.no-icon {
+  padding-left: 0 !important;
 }
 .pf-section a {
   color: #cb4830;
