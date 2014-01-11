@@ -76,8 +76,7 @@ body {
 	$logo_size:45px;
 	position: relative;
 	background-color: $sidebar-gray;
-	//@include padding(all, 0);
-	//@include padding(left right, 10px);
+	@include padding(left right, 30px);
 	
 	img {
 		width: $logo_size;
@@ -100,7 +99,7 @@ body {
 		$offset:$logo_size * $offsetRatio;
 		
 		//@include padding(right, $offset !important);
-		@include padding(top, 80px);
+		@include padding(top, 40px);
 		
 		li {
 			margin-bottom:40px;
@@ -111,9 +110,14 @@ body {
 			text-align:center;
 			text-transform:uppercase;
 			position:relative;
-			background-color:#183e6b;
-			color:white;
-			font-size: 1.5em;
+			background-color:white;
+			color:$red;
+			font-size: 1.3em;
+			letter-spacing: 1px;
+			font-weight: bold;
+			
+			border-radius: 3px;
+			border: #CCC 3px solid;
 			
 			img {
 				position: absolute;
@@ -125,10 +129,8 @@ body {
 		
 		p {
 			text-transform: none;
-			
-			$paddingAmt:15px;	
-			@include padding(top, $paddingAmt - 5px);
-			@include padding(left right, $paddingAmt);
+			@include padding(top, 10px);
+			color:$navy_blue;
 		}
 	}
 	
