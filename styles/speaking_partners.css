@@ -357,7 +357,7 @@ body {
 
 #sidebar {
   position: relative;
-  background-color: #dedede;
+  background-color: #d9d9d9;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -369,7 +369,7 @@ body {
   left: -24px;
   border-top: 24px solid transparent;
   border-bottom: 24px solid transparent;
-  border-right: 24px solid #dedede;
+  border-right: 24px solid #d9d9d9;
 }
 #sidebar .header {
   padding-top: 40px;
