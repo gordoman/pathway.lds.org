@@ -1,17 +1,21 @@
 /*The first heading on any page*/
 .page-title{ 
 	font-family: Georgia, serif;
-	
-}
+	font-size:265%;
+	}
 
 
 /*The text following the title*/
 .page-summary{
+	font-size:100%;
+	font-style: italic;
 
 }
 
 .subheading{
-
+	font-size:190%;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .main-content{
@@ -43,3 +47,4 @@
 .p-heading{
 
 }
+
