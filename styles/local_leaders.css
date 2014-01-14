@@ -308,7 +308,6 @@ footer .navbar-nav {
 .pf-page-header {
   display: table-cell;
   vertical-align: middle;
-  text-transform: uppercase;
   position: relative;
 }
 .pf-page-header h1 {
