@@ -26,7 +26,7 @@
 
 .carousel-caption{
 	text-transform:none;
-	background-color: rgba(202, 72, 48, 0.7);
+	//background-color: rgba($red, 0.7);
 	width: 282px;
 	height: 279px;
 	text-align: left;
@@ -35,6 +35,27 @@
 	left: 0;
 	margin: 43px;
 	margin-left: 97px;
+		&.red {
+			background-color: rgba($red, 0.8);
+		}
+		&.turquoise {
+			background-color: rgba($turquoise, 0.8);
+		}
+		&.teal {
+			background-color: rgba($teal, 0.8);
+		}
+		&.green {
+			background-color: rgba($green, 0.8);
+		}
+		&.navy {
+			background-color: rgba($navy_blue, 0.8);
+		}
+		&.orange {
+			background-color: rgba($pathway_orange, 0.8);
+		}
+		&.gray {
+			background-color: rgba($sidebar_gray, 0.8);
+		}
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
