@@ -35,6 +35,11 @@ $nav_color_list: $nav1_color, $nav2_color, $nav3_color, $nav4_color, $nav5_color
 	padding: 12px 0;
 }
 
+.header_contact {
+	text-transform:none;
+	color:black !important;
+}
+
 .orange-bar {
 	float: none !important;
 }
@@ -45,6 +50,13 @@ $nav_color_list: $nav1_color, $nav2_color, $nav3_color, $nav4_color, $nav5_color
 
 .navbar {
 	margin-bottom: 0;
+}
+
+@media (min-width: 767px) {
+	.signin-btn {
+		height:40px;
+		margin-top:-5px;
+	}
 }
 
 .site-navigation {
