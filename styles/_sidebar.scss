@@ -55,7 +55,9 @@ $link_color: #fff;
 /************************
 	 SIDE BAR STYLE SHEET
  ************************/
-html, body { height:100%; }
+html, body { 
+	height:100%; 
+}
 
 body {
 	position: relative;
@@ -77,11 +79,6 @@ body {
 	position: relative;
 	background-color: $sidebar-gray;
 	@include padding(left right, 30px);
-	
-	img {
-		width: $logo_size;
-		height: $logo_size;
-	}
 	
 	.sidebar-caret {
 		position: absolute;
@@ -106,7 +103,8 @@ body {
 		}	
 			
 		a {
-			padding:10px;
+			padding:0;
+			/*
 			text-align:center;
 			text-transform:uppercase;
 			position:relative;
@@ -118,12 +116,10 @@ body {
 			
 			border-radius: 3px;
 			border: #CCC 3px solid;
-			
+			*/
 			img {
-				position: absolute;
-				@include positionOffset(top left, -$offset);
-				top: -15px;
-				left: -15px;
+				width: 100%;
+				height: 100%;
 			}
 		}
 		
@@ -191,12 +187,6 @@ body {
 			}
 			h3 {
 				font-size:20px;
-			}
-			img {				
-				$offsetRatio: (3/4);
-				$offset:$logo_size * $offsetRatio;
-				width:$offset;
-				height:$offset;
 			}
 		}
 		

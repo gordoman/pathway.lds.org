@@ -1,3 +1,9 @@
+/** Global Styles **/
+body {
+  color: #222;
+}
+
+/*** END GLOBAL ***/
 /****** Header ******/
 .pathway-header {
   padding: 0px;
@@ -356,10 +362,6 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
-#sidebar img {
-  width: 45px;
-  height: 45px;
-}
 #sidebar .sidebar-caret {
   position: absolute;
   width: 0;
@@ -377,22 +379,24 @@ body {
   margin-bottom: 40px;
 }
 #sidebar .header a {
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  background-color: white;
-  color: #dc4831;
+  padding: 0;
+  /*
+  text-align:center;
+  text-transform:uppercase;
+  position:relative;
+  background-color:white;
+  color:$red;
   font-size: 1.3em;
   letter-spacing: 1px;
   font-weight: bold;
+  
   border-radius: 3px;
   border: #CCC 3px solid;
+  */
 }
 #sidebar .header a img {
-  position: absolute;
-  top: -15px;
-  left: -15px;
+  width: 100%;
+  height: 100%;
 }
 #sidebar .header p {
   text-transform: none;
@@ -445,10 +449,6 @@ body {
   }
   #sidebar #sideNav h3 {
     font-size: 20px;
-  }
-  #sidebar #sideNav img {
-    width: 33.75px;
-    height: 33.75px;
   }
 }
 #sidebar #sideNav.affix {
