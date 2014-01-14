@@ -1,13 +1,14 @@
 // ******************
 //      CONSTANTS
 // ******************
-$yellow:#f2aa1f;
-$green:#a9c038;
-$blue:#183e6b;
+@import "colorScheme";
+//$yellow:#f2aa1f;
+//$green:#a9c038;
+//$blue:#183e6b;
 
-$feature1_color: $yellow;
+$feature1_color: $pathway_orange;
 $feature2_color: $green;
-$feature3_color: $blue;
+$feature3_color: $navy_blue;
 
 $feature_color_list : $feature1_color, $feature2_color, $feature3_color;
 

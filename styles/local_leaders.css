@@ -21,11 +21,22 @@
 
 .header_contact {
   text-transform: none;
-  color: black !important;
+  color: #4d4d4d !important;
+  font-size: 110%;
+}
+.header_contact img {
+  vertical-align: text-top;
+}
+.header_contact:hover {
+  text-decoration: underline !important;
 }
 
 .orange-bar {
   float: none !important;
+}
+
+.faq-bubble {
+  vertical-align: top;
 }
 
 .navbar-brand {
@@ -36,12 +47,23 @@
   margin-bottom: 0;
 }
 
+.signin-btn {
+  background-color: #b8801a;
+  color: white;
+  font-weight: bold;
+}
+
 @media (min-width: 767px) {
   .signin-btn {
-    height: 40px;
+    height: 50px;
     margin-top: -5px;
+    padding-top: 14px;
   }
 }
+#siteNavigation {
+  padding: 0;
+}
+
 .site-navigation {
   display: block;
   background: none;
@@ -59,9 +81,10 @@
 .site-navigation ul li {
   text-align: center;
   display: table;
-  height: 70px;
   border-left: #a0a0a0 solid 1px;
-  width: 20%;
+  width: 19.9%;
+  height: 50px;
+  font-size: 85%;
 }
 .site-navigation ul li:first-child {
   border-left: none;
@@ -143,13 +166,8 @@
   font-weight: bold;
   font-size: 100%;
   vertical-align: middle;
+  line-height: 16px;
   padding: 0 15px;
-}
-.site-navigation ul li #sub_nav {
-  border-top: solid 1px #808080;
-  border-bottom: solid #808080;
-  text-align: center;
-  height: 8px;
 }
 
 .main_toggle {
@@ -160,14 +178,6 @@
   z-index: 5;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-  .site-navigation {
-    font-size: 11px;
-  }
-  .site-navigation ul li {
-    height: 60px;
-  }
-}
 @media (max-width: 767px) {
   .site-navigation ul {
     margin: 0px;
@@ -202,6 +212,9 @@ footer .navbar-nav {
 
 .footer-links {
   padding: 37px 0;
+}
+.footer-links .social-icon {
+  margin: 5px;
 }
 .footer-links li {
   padding: 0 21px;
