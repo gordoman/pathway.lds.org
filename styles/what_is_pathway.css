@@ -255,6 +255,12 @@ footer .navbar-nav {
   /*	h4 {
   		color: $teal;
   	}*/
+  /*	p ~ img {
+  		width: 70%;
+  		@media (max-width: 479px) {
+  			width: 100%;
+  		}
+  	}*/
 }
 @media (min-width: 480px) {
   .pf-section {
@@ -276,14 +282,6 @@ footer .navbar-nav {
 @media (max-width: 479px) {
   .pf-section p {
     font-size: 16px;
-  }
-}
-.pf-section p ~ img {
-  width: 70%;
-}
-@media (max-width: 479px) {
-  .pf-section p ~ img {
-    width: 100%;
   }
 }
 .pf-section .formula {
@@ -717,10 +715,12 @@ html {
   display: inline;
 }
 
-/*
-.play-button{
-	display:inline;
-}*/
+.play-button {
+  display: inline;
+  height: 36px;
+  width: 39px;
+}
+
 #video-note {
   color: #dc4831;
   font-style: italic;

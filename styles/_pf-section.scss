@@ -58,12 +58,12 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
 			font-size:16px;
 		}
 	}
-	p ~ img {
+/*	p ~ img {
 		width: 70%;
 		@media (max-width: 479px) {
 			width: 100%;
 		}
-	}
+	}*/
 	
 	.formula {
 		width:75%;
