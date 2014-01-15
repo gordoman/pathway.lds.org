@@ -689,3 +689,7 @@ html {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.main-content p {
+  font-size: 100%;
+}
