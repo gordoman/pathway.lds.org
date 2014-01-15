@@ -146,6 +146,8 @@ $nav_color_list: $nav1_color, $nav2_color, $nav3_color, $nav4_color, $nav5_color
 	margin: 33px;
 	margin-left: 12px;
 	z-index: 5;
+	background-color:$signin-btn;
+	border:none;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
