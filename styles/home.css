@@ -182,6 +182,8 @@ body {
   margin: 33px;
   margin-left: 12px;
   z-index: 5;
+  background-color: #b8801a;
+  border: none;
 }
 
 @media (max-width: 767px) {
@@ -320,7 +322,7 @@ div.feature img {
   background-color: rgba(243, 171, 31, 0.8);
 }
 .carousel-caption.gray {
-  background-color: rgba(222, 222, 222, 0.8);
+  background-color: rgba(217, 217, 217, 0.8);
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -438,7 +440,7 @@ div.feature img {
   background-color: rgba(243, 171, 31, 0.8);
 }
 .carousel-caption.gray {
-  background-color: rgba(222, 222, 222, 0.8);
+  background-color: rgba(217, 217, 217, 0.8);
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
