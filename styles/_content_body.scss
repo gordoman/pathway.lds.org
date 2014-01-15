@@ -7,7 +7,7 @@
 
 /*The text following the title*/
 .page-summary{
-	font-size:100%;
+	font-size:120%;
 	font-style: italic;
 
 }
@@ -21,31 +21,77 @@
 .main-content{
 
 	p{
-		font-size: 100%;
+		font-size: 120%;
 
-	
+	}
 
 		ul{
-
-		
-
-			li{
-
 			
-}
-}
-}
-}
+		
+	}
+			li{
+				font-size: 120%;
 
-#click-here{
+	}		
 
 }
 
 #footnote{
+	font-size:100%;
+	font-style: italic;
+}
 
+
+#click-here{
+	color:$red;
+	font-style: italic;
+	font-size: 120%;
+	display:inline;
+}
+
+#location-icon{
+	display:inline;
+}
+/*
+.play-button{
+	display:inline;
+}*/
+
+#video-note{
+	color:$red;
+	font-style: italic;
+	font-size: 110%;
+	display:inline;
 }
 
 .p-heading{
-
+	font-size:140%;
+	font-style: italic;
+	color: $red;
+	margin-bottom:5px;
 }
 
+.p-heading2{
+	font-size:100%;
+	text-transform: uppercase;
+	color: $red;
+	font-weight:bold;
+}
+
+.p-heading3{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$red;
+	display:inline;
+	margin-bottom:0px;
+}
+
+.info-block{
+	font-style: italic;
+	color: #666666;
+	display:inline;
+}
+
+#faqbubble{
+
+}

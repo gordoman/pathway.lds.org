@@ -248,6 +248,14 @@ footer .navbar-nav {
   top: 6% !important;
 }
 
+.pf-section {
+  /*	h3 {
+  		color: $red;
+  	}	*/
+  /*	h4 {
+  		color: $teal;
+  	}*/
+}
 @media (min-width: 480px) {
   .pf-section {
     padding-left: 64px;
@@ -258,12 +266,6 @@ footer .navbar-nav {
 }
 .pf-section a {
   color: #cb4830;
-}
-.pf-section h3 {
-  color: #cb4830;
-}
-.pf-section h4 {
-  color: #1b8080;
 }
 .pf-section h5 {
   color: #666666;
