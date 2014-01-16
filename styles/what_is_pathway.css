@@ -764,7 +764,7 @@ html {
 #click-here {
   color: #dc4831;
   font-style: italic;
-  font-size: 120%;
+  font-size: 117%;
   display: inline;
   padding-left: 10px;
 }
@@ -828,25 +828,25 @@ html {
 }
 
 /*Paragraph Headings for L Version (blue)*/
-.p-heading {
+.lp-heading {
   font-size: 140%;
   font-style: italic;
-  color: #dc4831;
+  color: #1c818f;
   margin: 20px 0 5px 0;
 }
 
-.p-heading2 {
+.lp-heading2 {
   font-size: 100%;
   text-transform: uppercase;
-  color: #dc4831;
+  color: #1c818f;
   font-weight: bold;
   margin-top: 25px;
 }
 
-.p-heading3 {
+.lp-heading3 {
   font-size: 100%;
   text-transform: uppercase;
-  color: #dc4831;
+  color: #1c818f;
   display: inline;
   margin-bottom: 0px;
 }
