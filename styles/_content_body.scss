@@ -2,6 +2,7 @@
 .page-title{ 
 	font-family: Georgia, serif;
 	font-size:265%;
+	margin-bottom: 0;
 	}
 
 
@@ -9,6 +10,7 @@
 .page-summary{
 	font-size:120%;
 	font-style: italic;
+	/*margin-top:0px;*/
 
 }
 
@@ -41,6 +43,9 @@
 #footnote{
 	font-size:100%;
 	font-style: italic;
+	border-top:solid #555555 2px;
+	padding-top:25px;
+	margin-bottom: 50px;
 }
 
 
@@ -49,30 +54,50 @@
 	font-style: italic;
 	font-size: 120%;
 	display:inline;
+	padding-left:10px;
+
+a{
+	text-decoration: underline;
 }
+}
+
 
 #location-icon{
 	display:inline;
+	position:relative;
+	z-index:2;
+
+}
+
+#video-info-block{
+	padding: 20px 0 20px 0;
+}
+
+#caption-block{
+	padding: 20px 0 50px 0;
 }
 
 .play-button{
 	display:inline;
 	height:36px;
 	width:39px;
+	/*margin-bottom: 20px;*/
 }
-
-#video-note{
+.note{
 	color:$red;
 	font-style: italic;
-	font-size: 110%;
+	font-size: 140%;
 	display:inline;
+	padding-left:10px;
+	/*margin-bottom: 20px;*/
 }
+
 
 .p-heading{
 	font-size:140%;
 	font-style: italic;
 	color: $red;
-	margin-bottom:5px;
+	margin: 20px 0 5px 0;
 }
 
 .p-heading2{
@@ -80,6 +105,7 @@
 	text-transform: uppercase;
 	color: $red;
 	font-weight:bold;
+	margin-top: 25px;
 }
 
 .p-heading3{
@@ -97,5 +123,15 @@
 }
 
 #faqbubble{
+	margin-top:15px;
+}
 
+.img-space {
+	margin: 20px 0 40px 0;
+}
+
+#adm-img{
+	position:relative;
+	z-index:1;
+	margin-top:-20px;
 }
