@@ -734,12 +734,14 @@ html {
   /*margin-top:0px;*/
 }
 
+/*The second heading on any page*/
 .subheading {
   font-size: 190%;
   text-transform: uppercase;
   font-weight: bold;
 }
 
+/*The main text on the page*/
 .main-content {
   padding-right: 40px;
 }
@@ -750,6 +752,7 @@ html {
   font-size: 120%;
 }
 
+/**/
 #footnote {
   font-size: 100%;
   font-style: italic;
@@ -757,6 +760,7 @@ html {
   padding-top: 25px;
 }
 
+/*The text next to a clickable icon*/
 #click-here {
   color: #dc4831;
   font-style: italic;
@@ -768,6 +772,7 @@ html {
   text-decoration: underline;
 }
 
+/*The location pin icon*/
 #location-icon {
   display: inline;
   position: relative;
@@ -798,6 +803,7 @@ html {
   /*margin-bottom: 20px;*/
 }
 
+/*Paragraph Headings for Standard (red)*/
 .p-heading {
   font-size: 140%;
   font-style: italic;
@@ -821,6 +827,31 @@ html {
   margin-bottom: 0px;
 }
 
+/*Paragraph Headings for L Version (blue)*/
+.p-heading {
+  font-size: 140%;
+  font-style: italic;
+  color: #dc4831;
+  margin: 20px 0 5px 0;
+}
+
+.p-heading2 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #dc4831;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.p-heading3 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #dc4831;
+  display: inline;
+  margin-bottom: 0px;
+}
+
+/**/
 .info-block {
   font-style: italic;
   color: #666666;
