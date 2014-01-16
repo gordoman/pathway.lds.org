@@ -384,19 +384,7 @@ body {
 }
 #sidebar .header a {
   padding: 0;
-  /*
-  text-align:center;
-  text-transform:uppercase;
-  position:relative;
-  background-color:white;
-  color:$red;
-  font-size: 1.3em;
-  letter-spacing: 1px;
-  font-weight: bold;
-  
-  border-radius: 3px;
-  border: #CCC 3px solid;
-  */
+  background: none;
 }
 #sidebar .header a img {
   width: 100%;
