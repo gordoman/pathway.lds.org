@@ -250,6 +250,7 @@ footer .navbar-nav {
 }
 
 .pf-section {
+  /*a {color:$red;}*/
   /*	h3 {
   		color: $red;
   	}	*/
@@ -270,9 +271,6 @@ footer .navbar-nav {
 }
 .pf-section.no-icon {
   padding-left: 0 !important;
-}
-.pf-section a {
-  color: #cb4830;
 }
 .pf-section h5 {
   color: #666666;

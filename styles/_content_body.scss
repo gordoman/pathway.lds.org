@@ -54,11 +54,24 @@
 #click-here{
 	color:$red;
 	font-style: italic;
-	font-size: 120%;
+	font-size: 117%;
 	display:inline;
 	padding-left:10px;
 
 a{
+	color:$red;
+	text-decoration: underline;
+}
+}
+#click-here-blue{
+	color:$turquoise;
+	font-style: italic;
+	font-size: 117%;
+	display:inline;
+	padding-left:10px;
+
+a{
+	color:$turquoise;
 	text-decoration: underline;
 }
 }
@@ -122,14 +135,14 @@ a{
 .lp-heading{
 	font-size:140%;
 	font-style: italic;
-	color: $turquoise;
+	color:$turquoise;
 	margin: 20px 0 5px 0;
 }
 
 .lp-heading2{
 	font-size:100%;
 	text-transform: uppercase;
-	color: $turquoise;
+	color:$turquoise;
 	font-weight:bold;
 	margin-top: 25px;
 }
