@@ -693,6 +693,9 @@ html {
   font-weight: bold;
 }
 
+.main-content {
+  padding-right: 40px;
+}
 .main-content p {
   font-size: 120%;
 }
