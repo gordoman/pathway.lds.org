@@ -499,31 +499,24 @@ body {
   /**************
   	 ROW CANVAS
    **************/
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.35s ease;
-    -moz-transition: all 0.35s ease;
-    transition: all 0.35s ease;
-  }
-
   .row-offcanvas-left.active {
-    left: 41.6%;
+    left: 500px;
   }
   .row-offcanvas-left.active #sidebar {
     display: block;
   }
   .row-offcanvas-left #sidebar {
-    left: -41.6%;
+    left: -500px;
   }
 
   .row-offcanvas-right.active {
-    right: 41.6%;
+    right: 500px;
   }
   .row-offcanvas-right.active #sidebar {
     display: block;
   }
   .row-offcanvas-right #sidebar {
-    right: -41.6%;
+    right: -500px;
   }
 
   /************
@@ -531,14 +524,9 @@ body {
    ************/
   #sidebar {
     position: absolute;
-    color: white;
-    display: none;
-    width: 41.6%;
-    background-color: #3b3b3b;
-    z-index: 1000;
+    width: 500px;
+    z-index: -99;
     top: 0;
-    padding-left: 20px;
-    padding-right: 30px;
   }
   #sidebar #sideNav {
     width: 100%;
@@ -546,13 +534,6 @@ body {
   #sidebar #sideNav.affix {
     position: absolute;
     width: auto;
-    top: 100px;
-  }
-  #sidebar .nav li {
-    color: #dddddd;
-    background: linear-gradient(#3e3e3e, #383838);
-    border-top: 1px solid #484848;
-    border-bottom: 1px solid #2E2E2E;
   }
   #sidebar .nav li:first-child {
     border-top: 0;
@@ -562,32 +543,24 @@ body {
   }
   #sidebar .nav li:active a .caret {
     border-left-color: transparent;
-    border-top-color: white;
-    border-bottom-color: white;
+    border-top-color: #222222;
+    border-bottom-color: #222222;
   }
   #sidebar .nav li:active a:hover .caret, #sidebar .nav li:active a:focus .caret {
     border-left-color: transparent;
-    border-top-color: white;
-    border-bottom-color: white;
-  }
-  #sidebar .nav li a {
-    color: #dddddd;
+    border-top-color: #222222;
+    border-bottom-color: #222222;
   }
   #sidebar .nav li a img {
     max-width: 14px;
   }
   #sidebar .nav li a .caret {
-    border-left-color: white;
+    border-left-color: #222222;
     border-top-color: transparent;
     border-bottom-color: transparent;
   }
-  #sidebar .nav li a:hover, #sidebar .nav li a:focus {
-    text-decoration: none;
-    background: linear-gradient(#373737, #323232);
-    color: white;
-  }
   #sidebar .nav li a:hover .caret, #sidebar .nav li a:focus .caret {
-    border-left-color: white;
+    border-left-color: #222222;
     border-top-color: transparent;
     border-bottom-color: transparent;
   }

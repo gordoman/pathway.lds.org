@@ -243,15 +243,8 @@ body {
 /**************
 	 ROW CANVAS
  **************/
-	$transition:all 0.35s ease;
-	$canvas_shift_amt: 41.6%;
-
-	.row-offcanvas {
-		position: relative;
-		-webkit-transition: $transition;
-		-moz-transition: $transition;
-		transition: $transition;
-	}
+	//$canvas_shift_amt: 41.6%;
+	$canvas_shift_amt: 500px;
 
 	@include row_offcanvas(left, $canvas_shift_amt);
 	@include row_offcanvas(right, $canvas_shift_amt);
@@ -261,31 +254,20 @@ body {
  ************/	
 	#sidebar {
 		position: absolute;
-		color: $link_color;
-		@include SB_disp(false);
 		width: $canvas_shift_amt;
-		@include backgroundColor (true);
-		z-index: 1000;
+		z-index: -99;
 		top:0;
-		$paddingAmt:20px;
-		@include padding(left, $paddingAmt);
-		@include padding(right, $paddingAmt + floor($paddingAmt/2));
 
 		#sideNav {
 			width:100%;
 			&.affix {
 				position: absolute;
 				width:auto;
-				top: 100px;
 			}
 		}
 				
 		.nav {
 			li {
-				color:$dark_gray;
-				background: linear-gradient(#3E3E3E, #383838);
-				border-top: 1px solid #484848;
-				border-bottom: 1px solid #2E2E2E;
 				
 				&:first-child { border-top: 0; }
 				
@@ -294,37 +276,32 @@ body {
 					a {											
 						.caret {
 							border-left-color: transparent;
-							border-top-color: $link_color;
-							border-bottom-color: $link_color;
+							border-top-color: $body-text;
+							border-bottom-color: $body-text;
 						}
 						
 						&:hover, &:focus {					
 							.caret {
 								border-left-color: transparent;
-								border-top-color: $link_color;
-								border-bottom-color: $link_color;
+								border-top-color: $body-text;
+								border-bottom-color: $body-text;
 							}
 						}
 					}
 				}
 				
 				a {
-					color:$dark_gray;
 					img { max-width: 14px; }
 					
 					.caret {
-						border-left-color: $link_color;
+						border-left-color: $body-text;
 						border-top-color: transparent;
 						border-bottom-color: transparent;
 					}
 					
 					&:hover, &:focus {
-						text-decoration: none;
-						background: linear-gradient(#373737, #323232);
-						color:$link_color;
-					
 						.caret {
-							border-left-color: $link_color;
+							border-left-color: $body-text;
 							border-top-color: transparent;
 							border-bottom-color: transparent;
 						}
