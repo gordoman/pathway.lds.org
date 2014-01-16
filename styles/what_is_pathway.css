@@ -679,12 +679,14 @@ html {
 .page-title {
   font-family: Georgia, serif;
   font-size: 265%;
+  margin-bottom: 0;
 }
 
 /*The text following the title*/
 .page-summary {
   font-size: 120%;
   font-style: italic;
+  /*margin-top:0px;*/
 }
 
 .subheading {
@@ -706,6 +708,9 @@ html {
 #footnote {
   font-size: 100%;
   font-style: italic;
+  border-top: solid #555555 2px;
+  padding-top: 25px;
+  margin-bottom: 50px;
 }
 
 #click-here {
@@ -713,30 +718,47 @@ html {
   font-style: italic;
   font-size: 120%;
   display: inline;
+  padding-left: 10px;
+}
+#click-here a {
+  text-decoration: underline;
 }
 
 #location-icon {
   display: inline;
+  position: relative;
+  z-index: 2;
+}
+
+#video-info-block {
+  padding: 20px 0 20px 0;
+}
+
+#caption-block {
+  padding: 20px 0 50px 0;
 }
 
 .play-button {
   display: inline;
   height: 36px;
   width: 39px;
+  /*margin-bottom: 20px;*/
 }
 
-#video-note {
+.note {
   color: #dc4831;
   font-style: italic;
-  font-size: 110%;
+  font-size: 140%;
   display: inline;
+  padding-left: 10px;
+  /*margin-bottom: 20px;*/
 }
 
 .p-heading {
   font-size: 140%;
   font-style: italic;
   color: #dc4831;
-  margin-bottom: 5px;
+  margin: 20px 0 5px 0;
 }
 
 .p-heading2 {
@@ -744,6 +766,7 @@ html {
   text-transform: uppercase;
   color: #dc4831;
   font-weight: bold;
+  margin-top: 25px;
 }
 
 .p-heading3 {
@@ -758,4 +781,18 @@ html {
   font-style: italic;
   color: #666666;
   display: inline;
+}
+
+#faqbubble {
+  margin-top: 15px;
+}
+
+.img-space {
+  margin: 20px 0 40px 0;
+}
+
+#adm-img {
+  position: relative;
+  z-index: 1;
+  margin-top: -20px;
 }
