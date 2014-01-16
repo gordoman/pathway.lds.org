@@ -78,6 +78,7 @@ body {
 	$logo_size:45px;
 	position: relative;
 	background-color: $sidebar-gray;
+	border-right: solid white 20px;
 	@include padding(left right, 30px);
 	
 	.sidebar-caret {

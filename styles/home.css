@@ -294,6 +294,7 @@ div.feature img {
 
 .carousel-caption {
   text-transform: none;
+  text-shadow: none !important;
   width: 282px;
   height: 279px;
   text-align: left;
@@ -310,7 +311,7 @@ div.feature img {
   background-color: rgba(28, 129, 143, 0.8);
 }
 .carousel-caption.teal {
-  background-color: rgba(127, 199, 182, 0.8);
+  background-color: rgba(127, 199, 182, 0.85);
 }
 .carousel-caption.green {
   background-color: rgba(169, 192, 56, 0.8);
@@ -412,6 +413,7 @@ div.feature img {
 
 .carousel-caption {
   text-transform: none;
+  text-shadow: none !important;
   width: 282px;
   height: 279px;
   text-align: left;
@@ -428,7 +430,7 @@ div.feature img {
   background-color: rgba(28, 129, 143, 0.8);
 }
 .carousel-caption.teal {
-  background-color: rgba(127, 199, 182, 0.8);
+  background-color: rgba(127, 199, 182, 0.85);
 }
 .carousel-caption.green {
   background-color: rgba(169, 192, 56, 0.8);
