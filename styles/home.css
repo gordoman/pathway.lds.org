@@ -1,6 +1,6 @@
 /** Global Styles **/
 body {
-  color: #222;
+  color: #222222;
 }
 
 /*** END GLOBAL ***/
@@ -213,6 +213,7 @@ footer {
   line-height: 45px;
   border-top: #b3b3b3 solid 1px;
   border-radius: 0;
+  text-transform: uppercase;
 }
 footer .navbar-nav {
   margin: 0;
@@ -564,10 +565,11 @@ div.feature img {
   height: 30px;
   overflow: hidden;
   line-height: 21px;
+  text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0px 6px 0px 0;
   padding: 0px 10px 0px 0;
-  font-size: .9167em;
+  font-size: 85%;
   background: url(../img/Chevron.gif) no-repeat 100% 0;
 }
 .breadCrumb ul li.first a {
@@ -589,7 +591,6 @@ div.feature img {
 }
 .breadCrumb ul li.lowercase {
   text-transform: none;
-  font-size: 120%;
 }
 .breadCrumb ul li.pipe-divider {
   background: url(../img/pipe.png) no-repeat 100% 0;
@@ -606,6 +607,7 @@ div.feature img {
 }
 .breadCrumb ul li a {
   display: block;
+  color: #222222;
   position: relative;
   height: 30px;
   line-height: 21px;

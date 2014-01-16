@@ -62,10 +62,11 @@ $line-height:21px;
 			height: $box-height;
 			overflow: hidden;
 			line-height: $line-height;
+			text-transform:uppercase;
 			letter-spacing:1px;
 			margin: 0px 6px 0px 0;
 			padding: 0px 10px 0px 0;
-			font-size: .9167em;
+			font-size: 85%;
 			background: url(../img/Chevron.gif) no-repeat 100% 0;
 			
 			&.first a
@@ -93,7 +94,6 @@ $line-height:21px;
 			&.lowercase
 			{
 				text-transform:none;
-				font-size:120%;
 			}
 			&.pipe-divider
 			{
@@ -117,6 +117,7 @@ $line-height:21px;
 			a
 			{
 				display: block;
+				color: $body-text;
 				position: relative;
 				height: $box-height;
 				line-height: $line-height;

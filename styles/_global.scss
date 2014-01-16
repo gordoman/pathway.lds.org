@@ -1,7 +1,8 @@
 /** Global Styles **/
+@import "colorScheme";
 
 body {
-	color:#222;
+	color:$body-text;
 }
 
 /*** END GLOBAL ***/

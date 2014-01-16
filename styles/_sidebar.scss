@@ -84,12 +84,20 @@ body {
 	.sidebar-caret {
 		position: absolute;
 		width: 0; 
-		height: 0; 
-		top: 17px;
+		height: 0;
 		left: -24px;
 		border-top: 24px solid transparent;
 		border-bottom: 24px solid transparent; 
 		border-right: 24px solid $sidebar-gray;
+		&.pos1 {
+			top: 17px;
+		}
+		&.pos2 {
+			top: 77px;
+		}
+		&.pos3 {
+			top: 144px;
+		}
 	}
 	
 	.header {
@@ -132,17 +140,23 @@ body {
 	}
 	
 	.nav {
+		font-weight:bold;
+		text-transform:uppercase;
+		p {
+			font-weight:normal;
+			text-transform:capitalize;
+		}
 		.nav {
 			display: none;
-			// margin-bottom: 8px;
 			padding-left:.8em;
+			font-weight:normal;
+			text-transform:capitalize;
 		}
 
 		li {
-			// margin-bottom: 8px;
-			//@include padding(all, 10px 15px);
+			
 			a, a:hover, a:visited {
-				//@include padding(all, 0);
+				color: $body-text;
 			}
 			&.active {
 				color:$red;
@@ -156,30 +170,53 @@ body {
 				}
 				
 				.caret {
-					@include caret(true, #428bca);
+					@include caret(true, $red);
 				}
 			
 				a:hover {
 					.caret {
-						@include caret(true, #428bca);
+						@include caret(true, $red);
 					}
 				}
 			}
 		}
 				
 		.caret {
-			@include caret(false, #428bca);
+			@include caret(false, $body-text);
 		}
 		
 		a:hover {
 			.caret {
-				@include caret(false, #428bca);
+				@include caret(false, $body-text);
 			}
 		}
 	}
 	
 	
 	#sideNav {
+	
+		h3 {
+			a {
+				text-transform: uppercase;
+				color: rgba(#222, .5);
+				font-weight: bold;
+				font-size: 90%;
+				letter-spacing: 2px;
+				
+				&.active {
+					color: #222;
+					img {
+						opacity:1;
+					}	
+				}
+				img {
+					width:45px;
+					height:44px;
+					opacity:0.5;
+				}
+			}
+		}
+		
 		@media (max-width: 992px) {
 			//width: 187.5px;
 			font-size:13px;
@@ -191,7 +228,7 @@ body {
 			}
 		}
 		
-		&.affix {
+		/*&.affix {
 			position: fixed;
 			top:0;
 		}
@@ -204,7 +241,7 @@ body {
 		
 		&.affix-top {
 			top:100px;
-		}
+		}*/
 	}
 }
 

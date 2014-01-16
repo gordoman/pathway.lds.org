@@ -1,6 +1,6 @@
 /** Global Styles **/
 body {
-  color: #222;
+  color: #222222;
 }
 
 /*** END GLOBAL ***/
@@ -213,6 +213,7 @@ footer {
   line-height: 45px;
   border-top: #b3b3b3 solid 1px;
   border-radius: 0;
+  text-transform: uppercase;
 }
 footer .navbar-nav {
   margin: 0;
@@ -361,11 +362,19 @@ body {
   position: absolute;
   width: 0;
   height: 0;
-  top: 17px;
   left: -24px;
   border-top: 24px solid transparent;
   border-bottom: 24px solid transparent;
   border-right: 24px solid #d9d9d9;
+}
+#sidebar .sidebar-caret.pos1 {
+  top: 17px;
+}
+#sidebar .sidebar-caret.pos2 {
+  top: 77px;
+}
+#sidebar .sidebar-caret.pos3 {
+  top: 144px;
 }
 #sidebar .header {
   padding-top: 40px;
@@ -398,9 +407,22 @@ body {
   padding-top: 10px;
   color: #173e6b;
 }
+#sidebar .nav {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#sidebar .nav p {
+  font-weight: normal;
+  text-transform: capitalize;
+}
 #sidebar .nav .nav {
   display: none;
   padding-left: .8em;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+#sidebar .nav li a, #sidebar .nav li a:hover, #sidebar .nav li a:visited {
+  color: #222222;
 }
 #sidebar .nav li.active {
   color: #dc4831;
@@ -412,13 +434,13 @@ body {
   display: block;
 }
 #sidebar .nav li.active .caret {
-  border-top: 4px solid #428bca;
+  border-top: 4px solid #dc4831;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-bottom: 0px dotted;
 }
 #sidebar .nav li.active a:hover .caret {
-  border-top: 4px solid #428bca;
+  border-top: 4px solid #dc4831;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-bottom: 0px dotted;
@@ -427,13 +449,47 @@ body {
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
   border-right: 0px dotted;
-  border-left: 4px solid #428bca;
+  border-left: 4px solid #222222;
 }
 #sidebar .nav a:hover .caret {
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
   border-right: 0px dotted;
-  border-left: 4px solid #428bca;
+  border-left: 4px solid #222222;
+}
+#sidebar #sideNav {
+  /*&.affix {
+  	position: fixed;
+  	top:0;
+  }
+  
+  &.affix-bottom {
+  	position:absolute;
+  	top: auto;
+  	bottom:200px;
+  }
+  
+  &.affix-top {
+  	top:100px;
+  }*/
+}
+#sidebar #sideNav h3 a {
+  text-transform: uppercase;
+  color: rgba(34, 34, 34, 0.5);
+  font-weight: bold;
+  font-size: 90%;
+  letter-spacing: 2px;
+}
+#sidebar #sideNav h3 a.active {
+  color: #222;
+}
+#sidebar #sideNav h3 a.active img {
+  opacity: 1;
+}
+#sidebar #sideNav h3 a img {
+  width: 45px;
+  height: 44px;
+  opacity: 0.5;
 }
 @media (max-width: 992px) {
   #sidebar #sideNav {
@@ -445,18 +501,6 @@ body {
   #sidebar #sideNav h3 {
     font-size: 20px;
   }
-}
-#sidebar #sideNav.affix {
-  position: fixed;
-  top: 0;
-}
-#sidebar #sideNav.affix-bottom {
-  position: absolute;
-  top: auto;
-  bottom: 200px;
-}
-#sidebar #sideNav.affix-top {
-  top: 100px;
 }
 
 /***************
@@ -619,10 +663,11 @@ html {
   height: 30px;
   overflow: hidden;
   line-height: 21px;
+  text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0px 6px 0px 0;
   padding: 0px 10px 0px 0;
-  font-size: .9167em;
+  font-size: 85%;
   background: url(../img/Chevron.gif) no-repeat 100% 0;
 }
 .breadCrumb ul li.first a {
@@ -644,7 +689,6 @@ html {
 }
 .breadCrumb ul li.lowercase {
   text-transform: none;
-  font-size: 120%;
 }
 .breadCrumb ul li.pipe-divider {
   background: url(../img/pipe.png) no-repeat 100% 0;
@@ -661,6 +705,7 @@ html {
 }
 .breadCrumb ul li a {
   display: block;
+  color: #222222;
   position: relative;
   height: 30px;
   line-height: 21px;
