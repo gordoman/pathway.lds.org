@@ -59,6 +59,19 @@
 	padding-left:10px;
 
 a{
+	color:$red;
+	text-decoration: underline;
+}
+}
+#click-here-blue{
+	color:$turquoise;
+	font-style: italic;
+	font-size: 117%;
+	display:inline;
+	padding-left:10px;
+
+a{
+	color:$turquoise;
 	text-decoration: underline;
 }
 }
