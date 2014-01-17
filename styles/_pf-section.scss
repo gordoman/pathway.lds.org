@@ -53,7 +53,7 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
 		color: $gray;
 	}	
 	p {
-		text-transform: none;
+		/*text-transform: none;*/
 		@media (max-width: 479px) {
 			font-size:16px;
 		}

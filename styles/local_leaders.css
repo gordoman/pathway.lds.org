@@ -276,7 +276,7 @@ footer .navbar-nav {
   color: #666666;
 }
 .pf-section p {
-  text-transform: none;
+  /*text-transform: none;*/
 }
 @media (max-width: 479px) {
   .pf-section p {
@@ -729,6 +729,7 @@ html {
   font-size: 100%;
   padding-top: 25px;
   text-transform: uppercase;
+  color: #666666;
 }
 
 /*The text next to a clickable icon*/
@@ -864,11 +865,22 @@ html {
   font-size: 100%;
   text-transform: uppercase;
   color: #173e6b;
-  display: inline;
+  display: inline-block;
   margin-bottom: 0px;
 }
 
 /**/
+.local-quote {
+  font-size: 140%;
+  font-style: italic;
+  color: #173e6b;
+  margin: 0;
+  padding-left: 50px;
+  width: 65%;
+  float: left;
+  display: inline;
+}
+
 .info-block {
   font-style: italic;
   color: #666666;

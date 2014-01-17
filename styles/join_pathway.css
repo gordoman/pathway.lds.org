@@ -276,7 +276,7 @@ footer .navbar-nav {
   color: #666666;
 }
 .pf-section p {
-  text-transform: none;
+  /*text-transform: none;*/
 }
 @media (max-width: 479px) {
   .pf-section p {
