@@ -550,11 +550,16 @@ html {
   font-style: italic;
   /*margin-top:0px;*/ }
 
-/*The second heading on any page*/
+/*The second heading on most pages*/
 .subheading {
   font-size: 190%;
   text-transform: uppercase;
   font-weight: bold; }
+
+/*The second heading on Local Leaders pages*/
+.subheading-blue {
+  color: #173e6b;
+}
 
 /*The main text on the page*/
 .main-content {
@@ -618,6 +623,15 @@ html {
   padding-left: 10px;
   /*margin-bottom: 20px;*/ }
 
+.note-blue {
+  color: #173e6b;
+  font-style: italic;
+  font-size: 140%;
+  display: inline;
+  padding-left: 10px;
+  /*margin-bottom: 20px;*/
+}
+
 /*Paragraph Headings for Standard (red)*/
 .p-heading {
   font-size: 140%;
@@ -659,6 +673,30 @@ html {
   color: #1c818f;
   display: inline;
   margin-bottom: 0px; }
+
+/*Paragraph Headings for Local Leaders*/
+.llp-heading {
+  font-size: 140%;
+  font-style: italic;
+  color: #173e6b;
+  margin: 20px 0 5px 0;
+}
+
+.llp-heading2 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #173e6b;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.llp-heading3 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #173e6b;
+  display: inline;
+  margin-bottom: 0px;
+}
 
 /**/
 .info-block {
