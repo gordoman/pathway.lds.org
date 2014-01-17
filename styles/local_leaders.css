@@ -568,6 +568,177 @@ html {
   overflow-y: scroll;
 }
 
+/* Float Clearing
+ ---------------------------------------------------------------------*/
+.module:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* float clearing for IE6 */
+* html .module {
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+* + html .module {
+  min-height: 1%;
+}
+
+/* Breadcrumb Styles
+ ---------------------------------------------------------------------*/
+.breadCrumbHolder {
+  border-bottom: #a0a0a0 solid 2px;
+  background: #fff;
+}
+
+.breadCrumb {
+  margin: 0 auto;
+  padding: 0;
+  /* float: left; */
+  display: block;
+  height: 30px;
+  overflow: hidden;
+  /* width: 940px;
+  @media (max-width: 992px) {
+  	width:750px;
+  } */
+  padding: 5px;
+}
+.breadCrumb ul {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  display: block;
+}
+.breadCrumb ul li {
+  display: block;
+  float: left;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  line-height: 21px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0px 6px 0px 0;
+  padding: 0px 10px 0px 0;
+  font-size: 85%;
+  background: url(../img/Chevron.gif) no-repeat 100% 0;
+}
+.breadCrumb ul li.first a {
+  height: 16px !important;
+  text-indent: -1000em;
+  width: 16px;
+  padding: 0;
+  margin-top: 2px;
+  overflow: hidden;
+  background: url(../img/IconHome.gif) no-repeat 0 0;
+}
+.breadCrumb ul li.first a:hover {
+  background-position: 0 -16px;
+}
+.breadCrumb ul li.last {
+  background: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.breadCrumb ul li.lowercase {
+  text-transform: none;
+}
+.breadCrumb ul li.pipe-divider {
+  background: url(../img/pipe.png) no-repeat 100% 0;
+}
+.breadCrumb ul li div.chevronOverlay {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.breadCrumb ul li span {
+  display: block;
+  overflow: hidden;
+}
+.breadCrumb ul li a {
+  display: block;
+  color: #222222;
+  position: relative;
+  height: 30px;
+  line-height: 21px;
+  overflow: hidden;
+  float: left;
+}
+
+.chevronOverlay {
+  display: none;
+  background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
+  width: 13px;
+  height: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-title {
+  font-family: Georgia, serif;
+  font-size: 265%;
+}
+
+.subheading-blue {
+  color: #173e6b;
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.note {
+  color: #173e6b;
+  font-style: italic;
+  font-size: 140%;
+  display: inline;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.text-header-italics {
+  color: #173e6b;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.text-header {
+  color: #173e6b;
+  font-size: 18px;
+}
+
+.quote {
+  color: #173e6b;
+  font-size: 16px;
+  font-style: italic;
+}
+
+p.quote-sub-text {
+  clear: both;
+  font-size: 12px;
+  font-style: normal;
+  color: #a0a0a0;
+  text-transform: uppercase;
+}
+
+p {
+  color: #222222;
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: none;
+}
+
 /*The first heading on any page*/
 .page-title {
   font-family: Georgia, serif;
@@ -842,42 +1013,4 @@ html {
   background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
   width: 13px;
   height: 20px;
-}
-
-.page-title {
-  font-family: Georgia, serif;
-  font-size: 265%;
-}
-
-.subheading-blue {
-  color: #173e6b;
-  font-size: 34px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-.text-header-italics {
-  color: #173e6b;
-  font-size: 18px;
-  font-style: italic;
-}
-
-.text-header {
-  color: #173e6b;
-  font-size: 18px;
-}
-
-.quote {
-  color: #173e6b;
-  font-size: 16px;
-  font-style: italic;
-}
-
-p.quote-sub-text {
-  clear: both;
-  font-size: 12px;
-  font-style: normal;
-  color: #a0a0a0;
-  text-transform: uppercase;
 }
