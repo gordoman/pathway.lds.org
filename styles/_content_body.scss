@@ -14,12 +14,20 @@
 
 }
 
-/*The second heading on any page*/
+/*The second heading on most pages*/
 .subheading{
 	font-size:190%;
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+/*The second heading on Local Leaders pages*/
+.subheading-blue{
+	color: $navy_blue;
+}
+
+
+
 
 /*The main text on the page*/
 .main-content{
@@ -107,6 +115,15 @@ a{
 	/*margin-bottom: 20px;*/
 }
 
+.note-blue{
+	color:$navy_blue;
+	font-style: italic;
+	font-size: 140%;
+	display:inline;
+	padding-left:10px;
+	/*margin-bottom: 20px;*/
+}
+
 /*Paragraph Headings for Standard (red)*/
 .p-heading{
 	font-size:140%;
@@ -155,8 +172,32 @@ a{
 	margin-bottom:0px;
 }
 
-/**/
+/*Paragraph Headings for Local Leaders*/
+.llp-heading{
+	font-size:140%;
+	font-style: italic;
+	color:$navy_blue;
+	margin: 20px 0 5px 0;
+}
 
+.llp-heading2{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$navy_blue;
+	font-weight:bold;
+	margin-top: 25px;
+}
+
+.llp-heading3{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$navy_blue;
+	display:inline;
+	margin-bottom:0px;
+}
+
+
+/**/
 
 
 .info-block{

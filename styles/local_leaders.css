@@ -679,66 +679,7 @@ html {
   height: 20px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.page-title {
-  font-family: Georgia, serif;
-  font-size: 265%;
-}
-
-.subheading-blue {
-  color: #173e6b;
-  font-size: 34px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-.note {
-  color: #173e6b;
-  font-style: italic;
-  font-size: 140%;
-  display: inline;
-  padding-left: 10px;
-  margin-bottom: 20px;
-}
-
-.text-header-italics {
-  color: #173e6b;
-  font-size: 18px;
-  font-style: italic;
-}
-
-.text-header {
-  color: #173e6b;
-  font-size: 18px;
-}
-
-.quote {
-  color: #173e6b;
-  font-size: 16px;
-  font-style: italic;
-}
-
-p.quote-sub-text {
-  clear: both;
-  font-size: 12px;
-  font-style: normal;
-  color: #a0a0a0;
-  text-transform: uppercase;
-}
-
-p {
-  color: #222222;
-  display: block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-  text-transform: none;
-}
-
+/*@import "_local_leaders_content";*/
 /*The first heading on any page*/
 .page-title {
   font-family: Georgia, serif;
@@ -753,11 +694,16 @@ p {
   /*margin-top:0px;*/
 }
 
-/*The second heading on any page*/
+/*The second heading on most pages*/
 .subheading {
   font-size: 190%;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+/*The second heading on Local Leaders pages*/
+.subheading-blue {
+  color: #173e6b;
 }
 
 /*The main text on the page*/
@@ -835,6 +781,15 @@ p {
   /*margin-bottom: 20px;*/
 }
 
+.note-blue {
+  color: #173e6b;
+  font-style: italic;
+  font-size: 140%;
+  display: inline;
+  padding-left: 10px;
+  /*margin-bottom: 20px;*/
+}
+
 /*Paragraph Headings for Standard (red)*/
 .p-heading {
   font-size: 140%;
@@ -879,6 +834,30 @@ p {
   font-size: 100%;
   text-transform: uppercase;
   color: #1c818f;
+  display: inline;
+  margin-bottom: 0px;
+}
+
+/*Paragraph Headings for Local Leaders*/
+.llp-heading {
+  font-size: 140%;
+  font-style: italic;
+  color: #173e6b;
+  margin: 20px 0 5px 0;
+}
+
+.llp-heading2 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #173e6b;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.llp-heading3 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #173e6b;
   display: inline;
   margin-bottom: 0px;
 }
