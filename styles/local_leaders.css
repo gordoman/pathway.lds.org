@@ -568,6 +568,171 @@ html {
   overflow-y: scroll;
 }
 
+/*The first heading on any page*/
+.page-title {
+  font-family: Georgia, serif;
+  font-size: 265%;
+  margin-bottom: 0;
+}
+
+/*The text following the title*/
+.page-summary {
+  font-size: 120%;
+  font-style: italic;
+  /*margin-top:0px;*/
+}
+
+/*The second heading on any page*/
+.subheading {
+  font-size: 190%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*The main text on the page*/
+.main-content {
+  padding-right: 40px;
+}
+.main-content p {
+  font-size: 120%;
+}
+.main-content li {
+  font-size: 120%;
+}
+
+/**/
+#footnote {
+  font-size: 100%;
+  font-style: italic;
+  border-top: solid #555555 2px;
+  padding-top: 25px;
+}
+
+/*The text next to a clickable icon*/
+#click-here {
+  color: #dc4831;
+  font-style: italic;
+  font-size: 117%;
+  display: inline;
+  padding-left: 10px;
+}
+#click-here a {
+  color: #dc4831;
+  text-decoration: underline;
+}
+
+#click-here-blue {
+  color: #1c818f;
+  font-style: italic;
+  font-size: 117%;
+  display: inline;
+  padding-left: 10px;
+}
+#click-here-blue a {
+  color: #1c818f;
+  text-decoration: underline;
+}
+
+/*The location pin icon*/
+#location-icon {
+  display: inline;
+  position: relative;
+  z-index: 2;
+}
+
+#video-info-block {
+  padding: 20px 0 20px 0;
+}
+
+#caption-block {
+  padding: 20px 0 50px 0;
+}
+
+.play-button {
+  display: inline;
+  height: 36px;
+  width: 39px;
+  /*margin-bottom: 20px;*/
+}
+
+.note {
+  color: #dc4831;
+  font-style: italic;
+  font-size: 140%;
+  display: inline;
+  padding-left: 10px;
+  /*margin-bottom: 20px;*/
+}
+
+/*Paragraph Headings for Standard (red)*/
+.p-heading {
+  font-size: 140%;
+  font-style: italic;
+  color: #dc4831;
+  margin: 20px 0 5px 0;
+}
+
+.p-heading2 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #dc4831;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.p-heading3 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #dc4831;
+  display: inline;
+  margin-bottom: 0px;
+}
+
+/*Paragraph Headings for L Version (blue)*/
+.lp-heading {
+  font-size: 140%;
+  font-style: italic;
+  color: #1c818f;
+  margin: 20px 0 5px 0;
+}
+
+.lp-heading2 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #1c818f;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.lp-heading3 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #1c818f;
+  display: inline;
+  margin-bottom: 0px;
+}
+
+/**/
+.info-block {
+  font-style: italic;
+  color: #666666;
+  display: inline;
+}
+
+#faqbubble {
+  margin-top: 15px;
+}
+
+.img-space {
+  margin: 20px 0 40px 0;
+}
+
+#adm-img {
+  position: relative;
+  z-index: 1;
+  margin-top: -20px;
+}
+
 /* Float Clearing
  ---------------------------------------------------------------------*/
 .module:after {
