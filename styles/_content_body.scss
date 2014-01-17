@@ -2,50 +2,179 @@
 .page-title{ 
 	font-family: Georgia, serif;
 	font-size:265%;
+	margin-bottom: 0;
 	}
 
 
 /*The text following the title*/
 .page-summary{
-	font-size:100%;
+	font-size:120%;
 	font-style: italic;
+	/*margin-top:0px;*/
 
 }
 
+/*The second heading on any page*/
 .subheading{
 	font-size:190%;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
+/*The main text on the page*/
 .main-content{
 
-	p{
-		font-size: 100%;
+	padding-right:40px;
 
-	
+	p{
+		font-size: 120%;
+
+	}
 
 		ul{
-
-		
-
-			li{
-
 			
-}
-}
-}
+		
+	}
+			li{
+				font-size: 120%;
+
+	}		
+
 }
 
-#click-here{
-
-}
-
+/**/
 #footnote{
+	font-size:100%;
+	font-style: italic;
+	border-top:solid #555555 2px;
+	padding-top:25px;
+}
+
+/*The text next to a clickable icon*/
+#click-here{
+	color:$red;
+	font-style: italic;
+	font-size: 117%;
+	display:inline;
+	padding-left:10px;
+
+a{
+	color:$red;
+	text-decoration: underline;
+}
+}
+#click-here-blue{
+	color:$turquoise;
+	font-style: italic;
+	font-size: 117%;
+	display:inline;
+	padding-left:10px;
+
+a{
+	color:$turquoise;
+	text-decoration: underline;
+}
+}
+
+/*The location pin icon*/
+#location-icon{
+	display:inline;
+	position:relative;
+	z-index:2;
 
 }
 
+#video-info-block{
+	padding: 20px 0 20px 0;
+}
+
+#caption-block{
+	padding: 20px 0 50px 0;
+}
+
+.play-button{
+	display:inline;
+	height:36px;
+	width:39px;
+	/*margin-bottom: 20px;*/
+}
+.note{
+	color:$red;
+	font-style: italic;
+	font-size: 140%;
+	display:inline;
+	padding-left:10px;
+	/*margin-bottom: 20px;*/
+}
+
+/*Paragraph Headings for Standard (red)*/
 .p-heading{
-
+	font-size:140%;
+	font-style: italic;
+	color: $red;
+	margin: 20px 0 5px 0;
 }
 
+.p-heading2{
+	font-size:100%;
+	text-transform: uppercase;
+	color: $red;
+	font-weight:bold;
+	margin-top: 25px;
+}
+
+.p-heading3{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$red;
+	display:inline;
+	margin-bottom:0px;
+}
+
+/*Paragraph Headings for L Version (blue)*/
+.lp-heading{
+	font-size:140%;
+	font-style: italic;
+	color:$turquoise;
+	margin: 20px 0 5px 0;
+}
+
+.lp-heading2{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$turquoise;
+	font-weight:bold;
+	margin-top: 25px;
+}
+
+.lp-heading3{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$turquoise;
+	display:inline;
+	margin-bottom:0px;
+}
+
+/**/
+
+
+
+.info-block{
+	font-style: italic;
+	color: #666666;
+	display:inline;
+}
+
+#faqbubble{
+	margin-top:15px;
+}
+
+.img-space {
+	margin: 20px 0 40px 0;
+}
+
+#adm-img{
+	position:relative;
+	z-index:1;
+	margin-top:-20px;
+}

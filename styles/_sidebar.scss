@@ -78,17 +78,26 @@ body {
 	$logo_size:45px;
 	position: relative;
 	background-color: $sidebar-gray;
+	border-right: solid white 20px;
 	@include padding(left right, 30px);
 	
 	.sidebar-caret {
 		position: absolute;
 		width: 0; 
-		height: 0; 
-		top: 17px;
+		height: 0;
 		left: -24px;
 		border-top: 24px solid transparent;
 		border-bottom: 24px solid transparent; 
 		border-right: 24px solid $sidebar-gray;
+		&.pos1 {
+			top: 17px;
+		}
+		&.pos2 {
+			top: 77px;
+		}
+		&.pos3 {
+			top: 144px;
+		}
 	}
 	
 	.header {
@@ -104,19 +113,7 @@ body {
 			
 		a {
 			padding:0;
-			/*
-			text-align:center;
-			text-transform:uppercase;
-			position:relative;
-			background-color:white;
-			color:$red;
-			font-size: 1.3em;
-			letter-spacing: 1px;
-			font-weight: bold;
-			
-			border-radius: 3px;
-			border: #CCC 3px solid;
-			*/
+			background:none;
 			img {
 				width: 100%;
 				height: 100%;
@@ -131,17 +128,23 @@ body {
 	}
 	
 	.nav {
+		font-weight:bold;
+		text-transform:uppercase;
+		p {
+			font-weight:normal;
+			text-transform:capitalize;
+		}
 		.nav {
 			display: none;
-			// margin-bottom: 8px;
 			padding-left:.8em;
+			font-weight:normal;
+			text-transform:capitalize;
 		}
 
 		li {
-			// margin-bottom: 8px;
-			//@include padding(all, 10px 15px);
+			
 			a, a:hover, a:visited {
-				//@include padding(all, 0);
+				color: $body-text;
 			}
 			&.active {
 				color:$red;
@@ -155,30 +158,53 @@ body {
 				}
 				
 				.caret {
-					@include caret(true, #428bca);
+					@include caret(true, $red);
 				}
 			
 				a:hover {
 					.caret {
-						@include caret(true, #428bca);
+						@include caret(true, $red);
 					}
 				}
 			}
 		}
 				
 		.caret {
-			@include caret(false, #428bca);
+			@include caret(false, $body-text);
 		}
 		
 		a:hover {
 			.caret {
-				@include caret(false, #428bca);
+				@include caret(false, $body-text);
 			}
 		}
 	}
 	
 	
 	#sideNav {
+	
+		h3 {
+			a {
+				text-transform: uppercase;
+				color: rgba(#222, .5);
+				font-weight: bold;
+				font-size: 90%;
+				letter-spacing: 2px;
+				
+				&.active {
+					color: #222;
+					img {
+						opacity:1;
+					}	
+				}
+				img {
+					width:45px;
+					height:44px;
+					opacity:0.5;
+				}
+			}
+		}
+		
 		@media (max-width: 992px) {
 			//width: 187.5px;
 			font-size:13px;
@@ -190,7 +216,7 @@ body {
 			}
 		}
 		
-		&.affix {
+		/*&.affix {
 			position: fixed;
 			top:0;
 		}
@@ -203,7 +229,7 @@ body {
 		
 		&.affix-top {
 			top:100px;
-		}
+		}*/
 	}
 }
 
@@ -217,15 +243,8 @@ body {
 /**************
 	 ROW CANVAS
  **************/
-	$transition:all 0.35s ease;
-	$canvas_shift_amt: 41.6%;
-
-	.row-offcanvas {
-		position: relative;
-		-webkit-transition: $transition;
-		-moz-transition: $transition;
-		transition: $transition;
-	}
+	//$canvas_shift_amt: 41.6%;
+	$canvas_shift_amt: 500px;
 
 	@include row_offcanvas(left, $canvas_shift_amt);
 	@include row_offcanvas(right, $canvas_shift_amt);
@@ -235,31 +254,20 @@ body {
  ************/	
 	#sidebar {
 		position: absolute;
-		color: $link_color;
-		@include SB_disp(false);
 		width: $canvas_shift_amt;
-		@include backgroundColor (true);
-		z-index: 1000;
+		z-index: -99;
 		top:0;
-		$paddingAmt:20px;
-		@include padding(left, $paddingAmt);
-		@include padding(right, $paddingAmt + floor($paddingAmt/2));
 
 		#sideNav {
 			width:100%;
 			&.affix {
 				position: absolute;
 				width:auto;
-				top: 100px;
 			}
 		}
 				
 		.nav {
 			li {
-				color:$dark_gray;
-				background: linear-gradient(#3E3E3E, #383838);
-				border-top: 1px solid #484848;
-				border-bottom: 1px solid #2E2E2E;
 				
 				&:first-child { border-top: 0; }
 				
@@ -268,37 +276,32 @@ body {
 					a {											
 						.caret {
 							border-left-color: transparent;
-							border-top-color: $link_color;
-							border-bottom-color: $link_color;
+							border-top-color: $body-text;
+							border-bottom-color: $body-text;
 						}
 						
 						&:hover, &:focus {					
 							.caret {
 								border-left-color: transparent;
-								border-top-color: $link_color;
-								border-bottom-color: $link_color;
+								border-top-color: $body-text;
+								border-bottom-color: $body-text;
 							}
 						}
 					}
 				}
 				
 				a {
-					color:$dark_gray;
 					img { max-width: 14px; }
 					
 					.caret {
-						border-left-color: $link_color;
+						border-left-color: $body-text;
 						border-top-color: transparent;
 						border-bottom-color: transparent;
 					}
 					
 					&:hover, &:focus {
-						text-decoration: none;
-						background: linear-gradient(#373737, #323232);
-						color:$link_color;
-					
 						.caret {
-							border-left-color: $link_color;
+							border-left-color: $body-text;
 							border-top-color: transparent;
 							border-bottom-color: transparent;
 						}
