@@ -125,6 +125,7 @@
 <div class="container">
 	<div class="row row-offcanvas row-offcanvas-right">
 		<div class="col-xs-12 col-sm-8 main-content">
+			<button onClick="open_side();" type="button" class="visible-xs pull-right btn btn-primary btn-xs" data-toggle="offcanvas">Toggle</button>
 			<div class="hero pf-page-header">
 				<img src="../../../img/WIP/icons/lversion.png" alt="standardLogo">
 				<h1 id="Standard" class="page-title">L Version</h1>
@@ -262,6 +263,66 @@
 					</li>
 				</ul>
 				<h3><a href="#LVersion"><img src="../../../img/WIP/icons/lversion.png" alt="L Version Logo"> L Version</a></h3>
+                <ul class="nav pf-sidenav">
+					<li class="active">
+						<a href="HPW.html">
+						<span class="caret"></span>
+						How Pathway Works</a>
+						<ul class="nav drop-down">
+							<li>
+								<a href="#OnlineAcademicCourses">Online Academic Courses</a>
+							</li>
+							<li>
+								<a href="#ReligionClasses">Religion Classes</a>
+							</li>
+							<li>
+								<a href="#WeeklyGathering">Weekly Gathering</a>
+							</li>
+							<li>
+								<a href="#AgeGroups">Age Groups</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="service_missionaries.html">
+                        <span class="caret"></span> 
+                        Service Missionaries</a>
+					</li>
+					<li>
+						<a href="admission.html">
+                        <span class="caret"></span> 
+                        Admission Requirements</a>
+					</li>
+					<li>
+						<a href="cost.html">
+						<span class="caret"></span>
+						Cost</a>
+                        <ul class="nav">
+							<li>
+								<a href="cost_calc_tuition.html">Calculate Tutition</a>
+							</li>
+							<li>
+								<a href="#FinancialAid">Financial Aid</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="degree.html">
+						<span class="caret"></span>
+						Degree Options</a>
+                        <ul class="nav">
+							<li>
+								<a href="#OnlineDegree">Online Degree Program</a>
+							</li>
+							<li>
+								<a href="#Campus">Campus</a>
+							</li>
+							<li>
+								<a href="#OtherUniversities">Other Universities</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
                 <h3><a href="faq.html"><img alt="FAQ icon" src="../../../img/FAQ/faqbubble_large.png"> FAQ</a></h3>
 			</div>
 		</div>
@@ -310,5 +371,6 @@
 				jQuery("#breadCrumb").jBreadCrumb();
 		})
 </script>
+<script src="../../../js/drawer.js" type="text/javascript"></script>
 </body>
 </html>

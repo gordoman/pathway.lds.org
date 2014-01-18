@@ -443,22 +443,6 @@ body {
   border-right: 0px dotted;
   border-left: 4px solid #222222;
 }
-#sidebar #sideNav {
-  /*&.affix {
-  	position: fixed;
-  	top:0;
-  }
-  
-  &.affix-bottom {
-  	position:absolute;
-  	top: auto;
-  	bottom:200px;
-  }
-  
-  &.affix-top {
-  	top:100px;
-  }*/
-}
 #sidebar #sideNav h3 a {
   text-transform: uppercase;
   color: rgba(34, 34, 34, 0.5);
@@ -498,23 +482,23 @@ body {
   	 ROW CANVAS
    **************/
   .row-offcanvas-left.active {
-    left: 500px;
+    left: 250px;
   }
   .row-offcanvas-left.active #sidebar {
     display: block;
   }
   .row-offcanvas-left #sidebar {
-    left: -500px;
+    left: -250px;
   }
 
   .row-offcanvas-right.active {
-    right: 500px;
+    right: 250px;
   }
   .row-offcanvas-right.active #sidebar {
     display: block;
   }
   .row-offcanvas-right #sidebar {
-    right: -500px;
+    right: -250px;
   }
 
   /************
@@ -522,7 +506,9 @@ body {
    ************/
   #sidebar {
     position: absolute;
-    width: 500px;
+    width: 250px;
+    border-right: none;
+    display: none;
     z-index: -99;
     top: 0;
   }
@@ -532,6 +518,9 @@ body {
   #sidebar #sideNav.affix {
     position: absolute;
     width: auto;
+  }
+  #sidebar.open-mobile {
+    display: block;
   }
   #sidebar .nav li:first-child {
     border-top: 0;
@@ -717,6 +706,11 @@ html {
   font-size: 120%;
 }
 
+@media screen and (max-width: 767px) {
+  .main-content {
+    padding-right: 15px;
+  }
+}
 /**/
 #footnote {
   font-size: 100%;
