@@ -724,6 +724,7 @@ html {
   padding-top: 25px;
   text-transform: uppercase;
   color: #666666;
+  margin-bottom: 40px;
 }
 
 /*The text next to a clickable icon*/
@@ -774,21 +775,20 @@ html {
 }
 
 .note {
-  color: #dc4831;
   font-style: italic;
   font-size: 140%;
   display: inline;
   padding-left: 10px;
   /*margin-bottom: 20px;*/
 }
-
-.note-blue {
+.note.blue {
   color: #173e6b;
-  font-style: italic;
-  font-size: 140%;
-  display: inline;
-  padding-left: 10px;
-  /*margin-bottom: 20px;*/
+}
+.note.red {
+  color: #dc4831;
+}
+.note.turquoise {
+  color: #1c818f;
 }
 
 /*Paragraph Headings for Standard (red)*/
@@ -868,11 +868,12 @@ html {
   font-size: 140%;
   font-style: italic;
   color: #173e6b;
-  margin: 0;
+  margin: 0 0 30px 0;
   padding-left: 50px;
   width: 65%;
   float: left;
   display: inline;
+  line-height: 160%;
 }
 
 .info-block {
