@@ -311,6 +311,7 @@ footer .navbar-nav {
   position: relative;
 }
 .pf-page-header img {
+  margin-top: 10px;
   position: absolute;
   top: 15%;
   left: -64px;
@@ -688,9 +689,7 @@ html {
   text-transform: uppercase;
   font-weight: bold;
 }
-
-/*The second heading on Local Leaders pages*/
-.subheading-blue {
+.subheading.blue {
   color: #173e6b;
 }
 
@@ -699,10 +698,10 @@ html {
   padding-right: 40px;
 }
 .main-content p {
-  font-size: 120%;
+  /*font-size: 120%;*/
 }
 .main-content li {
-  font-size: 120%;
+  /*font-size: 120%;*/
 }
 
 @media screen and (max-width: 767px) {
@@ -727,28 +726,32 @@ html {
 }
 
 /*The text next to a clickable icon*/
-#click-here {
-  color: #dc4831;
+.click-here {
   font-style: italic;
   font-size: 117%;
   display: inline;
-  padding-left: 10px;
+  /*padding-left:10px;*/
 }
-#click-here a {
+.click-here.red {
   color: #dc4831;
-  text-decoration: underline;
 }
-
-#click-here-blue {
-  color: #1c818f;
-  font-style: italic;
-  font-size: 117%;
-  display: inline;
-  padding-left: 10px;
-}
-#click-here-blue a {
-  color: #1c818f;
+.click-here.red a {
   text-decoration: underline;
+  color: #dc4831;
+}
+.click-here.turquoise {
+  color: #1c818f;
+}
+.click-here.turquoise a {
+  text-decoration: underline;
+  color: #1c818f;
+}
+.click-here.blue {
+  color: #173e6b;
+}
+.click-here.blue a {
+  text-decoration: underline;
+  color: #173e6b;
 }
 
 /*The location pin icon*/
@@ -756,6 +759,7 @@ html {
   display: inline;
   position: relative;
   z-index: 2;
+  margin-right: 10px;
 }
 
 #video-info-block {
@@ -770,6 +774,7 @@ html {
   display: inline;
   height: 36px;
   width: 39px;
+  margin-right: 10px;
   /*margin-bottom: 20px;*/
 }
 
@@ -777,7 +782,7 @@ html {
   font-style: italic;
   font-size: 140%;
   display: inline;
-  padding-left: 10px;
+  /*padding-left:10px;*/
   /*margin-bottom: 20px;*/
 }
 .note.blue {
@@ -838,7 +843,7 @@ html {
   margin-bottom: 0px;
 }
 
-/*Paragraph Headings for Local Leaders*/
+/*Paragraph Headings for Local Leaders (navy blue)*/
 .llp-heading {
   font-size: 140%;
   font-style: italic;
@@ -860,6 +865,13 @@ html {
   color: #173e6b;
   display: inline-block;
   margin-bottom: 0px;
+}
+
+.llp-heading4 {
+  color: #173e6b;
+  font-style: italic;
+  /*font-weight:bold;*/
+  font-size: 110%;
 }
 
 /**/

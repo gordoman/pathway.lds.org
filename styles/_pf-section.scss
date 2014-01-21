@@ -93,6 +93,7 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
 	
 
 	img {
+		margin-top:10px;
 		position: absolute;		
 		top: 15%;
 		left: -$page_header_logo_position;
@@ -100,6 +101,7 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
 			display:none;
 		}
 		max-width: $page_header_logo_width;
+
 	}
 	
 	p {

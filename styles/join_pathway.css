@@ -311,6 +311,7 @@ footer .navbar-nav {
   position: relative;
 }
 .pf-page-header img {
+  margin-top: 10px;
   position: absolute;
   top: 15%;
   left: -64px;

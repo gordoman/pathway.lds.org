@@ -19,11 +19,9 @@
 	font-size:190%;
 	text-transform: uppercase;
 	font-weight: bold;
-}
-
-/*The second heading on Local Leaders pages*/
-.subheading-blue{
-	color: $navy_blue;
+	&.blue{
+		color: $navy_blue;
+	}
 }
 
 
@@ -35,7 +33,7 @@
 	padding-right:40px;
 
 	p{
-		font-size: 120%;
+		/*font-size: 120%;*/
 
 	}
 
@@ -44,7 +42,7 @@
 		
 	}
 			li{
-				font-size: 120%;
+				/*font-size: 120%;*/
 
 	}		
 
@@ -72,29 +70,32 @@
 }
 
 /*The text next to a clickable icon*/
-#click-here{
-	color:$red;
+.click-here{
 	font-style: italic;
 	font-size: 117%;
 	display:inline;
-	padding-left:10px;
-
-a{
-	color:$red;
-	text-decoration: underline;
-}
-}
-#click-here-blue{
-	color:$turquoise;
-	font-style: italic;
-	font-size: 117%;
-	display:inline;
-	padding-left:10px;
-
-a{
-	color:$turquoise;
-	text-decoration: underline;
-}
+	/*padding-left:10px;*/
+	&.red{
+		color:$red;
+			a{
+				text-decoration: underline;
+				color:$red;
+			}
+	}
+	&.turquoise{
+		color:$turquoise;
+		a{
+				text-decoration: underline;
+				color:$turquoise;
+			}
+	}
+	&.blue{
+		color:$navy_blue;
+		a{
+				text-decoration: underline;
+				color:$navy_blue;
+			}
+	}
 }
 
 /*The location pin icon*/
@@ -102,6 +103,7 @@ a{
 	display:inline;
 	position:relative;
 	z-index:2;
+	margin-right:10px;
 
 }
 
@@ -117,6 +119,7 @@ a{
 	display:inline;
 	height:36px;
 	width:39px;
+	margin-right:10px;
 	/*margin-bottom: 20px;*/
 }
 .note{
@@ -124,7 +127,7 @@ a{
 	font-style: italic;
 	font-size: 140%;
 	display:inline;
-	padding-left:10px;
+	/*padding-left:10px;*/
 	/*margin-bottom: 20px;*/
 	&.blue{
 		color:$navy_blue;
@@ -185,7 +188,7 @@ a{
 	margin-bottom:0px;
 }
 
-/*Paragraph Headings for Local Leaders*/
+/*Paragraph Headings for Local Leaders (navy blue)*/
 .llp-heading{
 	font-size:140%;
 	font-style: italic;
@@ -207,6 +210,13 @@ a{
 	color:$navy_blue;
 	display:inline-block;
 	margin-bottom:0px;
+}
+
+.llp-heading4{
+	color:$navy_blue; 
+	font-style:italic; 
+	/*font-weight:bold;*/
+	font-size: 110%;
 }
 
 
