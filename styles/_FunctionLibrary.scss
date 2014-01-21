@@ -8,15 +8,23 @@
 	}
 }
 
-@mixin caret ($isActive, $color) {
-	@if ($isActive == true) {
-		@include border(top, 4px solid $color);
+@mixin caret ($position, $color) {
+	@if ($position == "down") {
+		@include border(top, 6px solid $color);
 		@include border(left right, 4px solid transparent);
 		@include border(bottom, 0px dotted);
-	} @else {
+	} @else if ($position == "right") {
 		@include border(top bottom, 4px solid transparent);
 		@include border(right, 0px dotted);
-		@include border(left, 4px solid $color);		
+		@include border(left, 6px solid $color);		
+	} @else if ($position == "left") {
+		@include border(top bottom, 4px solid transparent);
+		@include border(right, 6px dotted);
+		@include border(left, 0px solid $color);		
+	} @else {
+		@include border(top, 0px solid $color);
+		@include border(left right, 4px solid transparent);
+		@include border(bottom, 6px dotted);
 	}
 }
 

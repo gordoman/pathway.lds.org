@@ -12,3 +12,15 @@ $nav_hover_color: #fff !important;
 $sidebar-gray:#d9d9d9;
 $signin-btn:#b8801a;
 $body-text:#222;
+
+
+// Navigation Color List (for loop classes):
+$nav1_color: $turquoise;
+$nav2_color: $red;
+$nav3_color: $teal;
+$nav4_color: $green;
+$nav5_color: $navy_blue;
+
+// Build Navigation Color List:
+$nav_color_list: $nav1_color, $nav2_color, $nav3_color, $nav4_color, $nav5_color;
+$nav_color_labels: "turquoise", "red", "teal", "green", "navy_blue";
