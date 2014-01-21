@@ -111,11 +111,13 @@ body {
 		}	
 			
 		a {
-			padding:0;
-			background:none;
-			img {
-				width: 100%;
-				height: 100%;
+			&.no-highlight {
+				padding:0;
+				background:none;
+				img {
+					width: 100%;
+					height: 100%;
+				}
 			}
 		}
 		
@@ -139,44 +141,63 @@ body {
 			font-weight:normal;
 			text-transform:capitalize;
 		}
-
-		li {
-			
-			a, a:hover, a:visited {
-				color: $body-text;
-			}
-			&.active {
-				color:$red;
-			
-				a, a:hover, a:visited {
-					color:$red;
-				}
-				
-				.nav {
-					display:block;
-				}
-				
-				.caret {
-					@include caret(true, $red);
-				}
-			
-				a:hover {
-					.caret {
-						@include caret(true, $red);
-					}
-				}
-			}
-		}
 				
 		.caret {
-			@include caret(false, $body-text);
+			@include caret("right", $body-text);
 		}
 		
 		a:hover {
 			.caret {
-				@include caret(false, $body-text);
+				@include caret("right", $body-text);
 			}
 		}
+		
+		li {
+			&.active {
+				.nav {
+					display:block;
+				}
+			}
+			a, a:hover, a:visited {
+						color: $body-text;
+			}
+			.caret {
+				float: left;
+				margin: 7px 6px 10px 0;
+			}
+					
+		}
+		@for $i from 1 through 5 {
+			&.#{nth($nav_color_labels, $i)}{
+				li {
+					&.active {
+						color: nth($nav_color_list, $i);
+			
+						a, a:hover, a:visited {
+							color: nth($nav_color_list, $i);
+						}
+				
+						.caret {
+							@include caret("left", nth($nav_color_list, $i));
+							&.down {
+								@include caret("down", nth($nav_color_list, $i));
+							}
+						}
+			
+						a:hover {
+							.caret {
+								@include caret("left", nth($nav_color_list, $i));
+								&.down {
+									@include caret("down", nth($nav_color_list, $i));
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		
 	}
 	
 	
