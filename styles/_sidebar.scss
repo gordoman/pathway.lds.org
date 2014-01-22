@@ -133,7 +133,7 @@ body {
 		text-transform:uppercase;
 		p {
 			font-weight:normal;
-			text-transform:capitalize;
+			text-transform:none;
 		}
 		.nav {
 			display: none;
@@ -178,7 +178,7 @@ body {
 						}
 				
 						.caret {
-							@include caret("left", nth($nav_color_list, $i));
+							@include caret("down", nth($nav_color_list, $i));
 							&.down {
 								@include caret("down", nth($nav_color_list, $i));
 							}
@@ -186,7 +186,7 @@ body {
 			
 						a:hover {
 							.caret {
-								@include caret("left", nth($nav_color_list, $i));
+								@include caret("down", nth($nav_color_list, $i));
 								&.down {
 									@include caret("down", nth($nav_color_list, $i));
 								}

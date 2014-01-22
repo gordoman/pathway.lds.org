@@ -400,7 +400,7 @@ body {
 }
 #sidebar .nav p {
   font-weight: normal;
-  text-transform: capitalize;
+  text-transform: none;
 }
 #sidebar .nav .nav {
   display: none;
@@ -437,10 +437,10 @@ body {
   color: #1c818f;
 }
 #sidebar .nav.turquoise li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #1c818f;
+  border-top: 6px solid #1c818f;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.turquoise li.active .caret.down {
   border-top: 6px solid #1c818f;
@@ -449,10 +449,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.turquoise li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #1c818f;
+  border-top: 6px solid #1c818f;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.turquoise li.active a:hover .caret.down {
   border-top: 6px solid #1c818f;
@@ -467,10 +467,10 @@ body {
   color: #dc4831;
 }
 #sidebar .nav.red li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #dc4831;
+  border-top: 6px solid #dc4831;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.red li.active .caret.down {
   border-top: 6px solid #dc4831;
@@ -479,10 +479,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.red li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #dc4831;
+  border-top: 6px solid #dc4831;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.red li.active a:hover .caret.down {
   border-top: 6px solid #dc4831;
@@ -497,10 +497,10 @@ body {
   color: #7fc7b6;
 }
 #sidebar .nav.teal li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #7fc7b6;
+  border-top: 6px solid #7fc7b6;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.teal li.active .caret.down {
   border-top: 6px solid #7fc7b6;
@@ -509,10 +509,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.teal li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #7fc7b6;
+  border-top: 6px solid #7fc7b6;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.teal li.active a:hover .caret.down {
   border-top: 6px solid #7fc7b6;
@@ -527,10 +527,10 @@ body {
   color: #a9c038;
 }
 #sidebar .nav.green li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #a9c038;
+  border-top: 6px solid #a9c038;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.green li.active .caret.down {
   border-top: 6px solid #a9c038;
@@ -539,10 +539,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.green li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #a9c038;
+  border-top: 6px solid #a9c038;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.green li.active a:hover .caret.down {
   border-top: 6px solid #a9c038;
@@ -557,10 +557,10 @@ body {
   color: #173e6b;
 }
 #sidebar .nav.navy_blue li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #173e6b;
+  border-top: 6px solid #173e6b;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.navy_blue li.active .caret.down {
   border-top: 6px solid #173e6b;
@@ -569,10 +569,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.navy_blue li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #173e6b;
+  border-top: 6px solid #173e6b;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.navy_blue li.active a:hover .caret.down {
   border-top: 6px solid #173e6b;
@@ -837,6 +837,10 @@ html {
 .main-content p {
   /*font-size: 120%;*/
 }
+.main-content p.collapsible {
+  overflow: hidden;
+  height: 0;
+}
 .main-content li {
   /*font-size: 120%;*/
 }
@@ -938,6 +942,9 @@ html {
   font-style: italic;
   color: #dc4831;
   margin: 20px 0 5px 0;
+}
+.p-heading a {
+  color: #dc4831;
 }
 
 .p-heading2 {
