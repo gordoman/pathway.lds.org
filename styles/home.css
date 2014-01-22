@@ -4,6 +4,9 @@ body {
 }
 
 /*** END GLOBAL ***/
+/*********************
+   Header & Footer
+*********************/
 /****** Header ******/
 .pathway-header {
   padding: 0px;
@@ -187,6 +190,13 @@ body {
 }
 
 @media (max-width: 767px) {
+  .navbar-inverse {
+    border: none !important;
+  }
+
+  .site-navigation {
+    border: none !important;
+  }
   .site-navigation ul {
     margin: 0px;
   }
