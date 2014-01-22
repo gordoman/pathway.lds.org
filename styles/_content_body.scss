@@ -11,8 +11,8 @@
 	font-size:120%;
 	font-style: italic;
 	/*margin-top:0px;*/
-
 }
+
 
 /*The second heading on most pages*/
 .subheading{
@@ -20,10 +20,84 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	&.blue{
-		color: $navy_blue;
+		color:$navy_blue;
+	}
+	&.green{
+		color:$green;
 	}
 }
 
+/*Paragraph Headings for Standard (red)*/
+.p-heading{
+	font-size:140%;
+	font-style: italic;
+	margin: 20px 0 5px 0;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+	&.blue{
+		color:$navy_blue;
+
+	}
+}
+
+.p-heading2{
+	font-size:100%;
+	text-transform: uppercase;
+	font-weight:bold;
+	margin-top: 25px;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+	&.blue{
+		color:$navy_blue;
+
+	}
+}
+
+.p-heading3{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$red;
+	display:inline;
+	margin-bottom:0px;
+}
+
+/*Paragraph Headings for L Version (blue)*/
+
+.lp-heading3{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$turquoise;
+	display:inline;
+	margin-bottom:0px;
+}
+
+/*Paragraph Headings only for Local Leaders (navy blue)*/
+
+
+.llp-heading3{
+	font-size:100%;
+	text-transform: uppercase;
+	color:$navy_blue;
+	display:inline-block;
+	margin-bottom:0px;
+}
+
+.p-heading4{
+	color:$navy_blue; 
+	font-style:italic; 
+	font-size: 110%;
+	&.blue{
+		color:$navy_blue;
+	}
+}
 
 
 
@@ -33,7 +107,7 @@
 	padding-right:40px;
 
 	p{
-		/*font-size: 120%;*/
+		
 
 	}
 
@@ -42,7 +116,7 @@
 		
 	}
 			li{
-				/*font-size: 120%;*/
+				
 
 	}		
 
@@ -59,6 +133,7 @@
 	font-style: italic;
 	border-top:solid #555555 2px;
 	padding-top:25px;
+	color:#959595;
 }
 
 .credit{
@@ -113,6 +188,9 @@
 
 #caption-block{
 	padding: 20px 0 50px 0;
+	color:#dc4831; 
+	font-style: italic; 
+	font-size: 120%;
 }
 
 .play-button{
@@ -125,7 +203,7 @@
 .note{
 	
 	font-style: italic;
-	font-size: 140%;
+	font-size: 120%;
 	display:inline;
 	/*padding-left:10px;*/
 	/*margin-bottom: 20px;*/
@@ -138,85 +216,6 @@
 	&.turquoise{
 		color:$turquoise;
 	}
-}
-
-/*Paragraph Headings for Standard (red)*/
-.p-heading{
-	font-size:140%;
-	font-style: italic;
-	color: $red;
-	margin: 20px 0 5px 0;
-}
-
-.p-heading2{
-	font-size:100%;
-	text-transform: uppercase;
-	color: $red;
-	font-weight:bold;
-	margin-top: 25px;
-}
-
-.p-heading3{
-	font-size:100%;
-	text-transform: uppercase;
-	color:$red;
-	display:inline;
-	margin-bottom:0px;
-}
-
-/*Paragraph Headings for L Version (blue)*/
-.lp-heading{
-	font-size:140%;
-	font-style: italic;
-	color:$turquoise;
-	margin: 20px 0 5px 0;
-}
-
-.lp-heading2{
-	font-size:100%;
-	text-transform: uppercase;
-	color:$turquoise;
-	font-weight:bold;
-	margin-top: 25px;
-}
-
-.lp-heading3{
-	font-size:100%;
-	text-transform: uppercase;
-	color:$turquoise;
-	display:inline;
-	margin-bottom:0px;
-}
-
-/*Paragraph Headings for Local Leaders (navy blue)*/
-.llp-heading{
-	font-size:140%;
-	font-style: italic;
-	color:$navy_blue;
-	margin: 20px 0 5px 0;
-}
-
-.llp-heading2{
-	font-size:100%;
-	text-transform: uppercase;
-	color:$navy_blue;
-	font-weight:bold;
-	margin-top: 25px;
-}
-
-.llp-heading3{
-	font-size:100%;
-	text-transform: uppercase;
-	color:$navy_blue;
-	display:inline-block;
-	margin-bottom:0px;
-}
-
-.llp-heading4{
-	color:$navy_blue; 
-	font-style:italic; 
-	/*font-weight:bold;*/
-	font-size: 110%;
 }
 
 
