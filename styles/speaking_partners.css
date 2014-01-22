@@ -378,9 +378,6 @@ body {
 #sidebar .header {
   padding-top: 40px;
 }
-#sidebar .header li {
-  margin-bottom: 40px;
-}
 #sidebar .header a.no-highlight {
   padding: 0;
   background: none;

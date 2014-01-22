@@ -105,10 +105,6 @@ body {
 		$offset:$logo_size * $offsetRatio;
 
 		@include padding(top, 40px);
-		
-		li {
-			margin-bottom:40px;
-		}	
 			
 		a {
 			&.no-highlight {
