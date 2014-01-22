@@ -400,7 +400,7 @@ body {
 }
 #sidebar .nav p {
   font-weight: normal;
-  text-transform: none;
+  text-transform: capitalize;
 }
 #sidebar .nav .nav {
   display: none;
@@ -437,10 +437,10 @@ body {
   color: #1c818f;
 }
 #sidebar .nav.turquoise li.active .caret {
-  border-top: 6px solid #1c818f;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #1c818f;
 }
 #sidebar .nav.turquoise li.active .caret.down {
   border-top: 6px solid #1c818f;
@@ -449,10 +449,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.turquoise li.active a:hover .caret {
-  border-top: 6px solid #1c818f;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #1c818f;
 }
 #sidebar .nav.turquoise li.active a:hover .caret.down {
   border-top: 6px solid #1c818f;
@@ -467,10 +467,10 @@ body {
   color: #dc4831;
 }
 #sidebar .nav.red li.active .caret {
-  border-top: 6px solid #dc4831;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #dc4831;
 }
 #sidebar .nav.red li.active .caret.down {
   border-top: 6px solid #dc4831;
@@ -479,10 +479,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.red li.active a:hover .caret {
-  border-top: 6px solid #dc4831;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #dc4831;
 }
 #sidebar .nav.red li.active a:hover .caret.down {
   border-top: 6px solid #dc4831;
@@ -497,10 +497,10 @@ body {
   color: #7fc7b6;
 }
 #sidebar .nav.teal li.active .caret {
-  border-top: 6px solid #7fc7b6;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #7fc7b6;
 }
 #sidebar .nav.teal li.active .caret.down {
   border-top: 6px solid #7fc7b6;
@@ -509,10 +509,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.teal li.active a:hover .caret {
-  border-top: 6px solid #7fc7b6;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #7fc7b6;
 }
 #sidebar .nav.teal li.active a:hover .caret.down {
   border-top: 6px solid #7fc7b6;
@@ -527,10 +527,10 @@ body {
   color: #a9c038;
 }
 #sidebar .nav.green li.active .caret {
-  border-top: 6px solid #a9c038;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #a9c038;
 }
 #sidebar .nav.green li.active .caret.down {
   border-top: 6px solid #a9c038;
@@ -539,10 +539,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.green li.active a:hover .caret {
-  border-top: 6px solid #a9c038;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #a9c038;
 }
 #sidebar .nav.green li.active a:hover .caret.down {
   border-top: 6px solid #a9c038;
@@ -557,10 +557,10 @@ body {
   color: #173e6b;
 }
 #sidebar .nav.navy_blue li.active .caret {
-  border-top: 6px solid #173e6b;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #173e6b;
 }
 #sidebar .nav.navy_blue li.active .caret.down {
   border-top: 6px solid #173e6b;
@@ -569,10 +569,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.navy_blue li.active a:hover .caret {
-  border-top: 6px solid #173e6b;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 0px dotted;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 6px dotted;
+  border-left: 0px solid #173e6b;
 }
 #sidebar .nav.navy_blue li.active a:hover .caret.down {
   border-top: 6px solid #173e6b;
@@ -829,20 +829,80 @@ html {
 .subheading.blue {
   color: #173e6b;
 }
+.subheading.green {
+  color: #a9c038;
+}
+
+/*Paragraph Headings for Standard (red)*/
+.p-heading {
+  font-size: 140%;
+  font-style: italic;
+  margin: 20px 0 5px 0;
+}
+.p-heading.red {
+  color: #dc4831;
+}
+.p-heading.turquoise {
+  color: #1c818f;
+}
+.p-heading.blue {
+  color: #173e6b;
+}
+
+.p-heading2 {
+  font-size: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.p-heading2.red {
+  color: #dc4831;
+}
+.p-heading2.turquoise {
+  color: #1c818f;
+}
+.p-heading2.blue {
+  color: #173e6b;
+}
+
+.p-heading3 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #dc4831;
+  display: inline;
+  margin-bottom: 0px;
+}
+
+/*Paragraph Headings for L Version (blue)*/
+.lp-heading3 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #1c818f;
+  display: inline;
+  margin-bottom: 0px;
+}
+
+/*Paragraph Headings only for Local Leaders (navy blue)*/
+.llp-heading3 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #173e6b;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.p-heading4 {
+  color: #173e6b;
+  font-style: italic;
+  font-size: 110%;
+}
+.p-heading4.blue {
+  color: #173e6b;
+}
 
 /*The main text on the page*/
 .main-content {
   padding-right: 40px;
-}
-.main-content p {
-  /*font-size: 120%;*/
-}
-.main-content p.collapsible {
-  overflow: hidden;
-  height: 0;
-}
-.main-content li {
-  /*font-size: 120%;*/
 }
 
 @media screen and (max-width: 767px) {
@@ -856,6 +916,7 @@ html {
   font-style: italic;
   border-top: solid #555555 2px;
   padding-top: 25px;
+  color: #959595;
 }
 
 .credit {
@@ -909,6 +970,9 @@ html {
 
 #caption-block {
   padding: 20px 0 50px 0;
+  color: #dc4831;
+  font-style: italic;
+  font-size: 120%;
 }
 
 .play-button {
@@ -921,7 +985,7 @@ html {
 
 .note {
   font-style: italic;
-  font-size: 140%;
+  font-size: 120%;
   display: inline;
   /*padding-left:10px;*/
   /*margin-bottom: 20px;*/
@@ -934,88 +998,6 @@ html {
 }
 .note.turquoise {
   color: #1c818f;
-}
-
-/*Paragraph Headings for Standard (red)*/
-.p-heading {
-  font-size: 140%;
-  font-style: italic;
-  color: #dc4831;
-  margin: 20px 0 5px 0;
-}
-.p-heading a {
-  color: #dc4831;
-}
-
-.p-heading2 {
-  font-size: 100%;
-  text-transform: uppercase;
-  color: #dc4831;
-  font-weight: bold;
-  margin-top: 25px;
-}
-
-.p-heading3 {
-  font-size: 100%;
-  text-transform: uppercase;
-  color: #dc4831;
-  display: inline;
-  margin-bottom: 0px;
-}
-
-/*Paragraph Headings for L Version (blue)*/
-.lp-heading {
-  font-size: 140%;
-  font-style: italic;
-  color: #1c818f;
-  margin: 20px 0 5px 0;
-}
-
-.lp-heading2 {
-  font-size: 100%;
-  text-transform: uppercase;
-  color: #1c818f;
-  font-weight: bold;
-  margin-top: 25px;
-}
-
-.lp-heading3 {
-  font-size: 100%;
-  text-transform: uppercase;
-  color: #1c818f;
-  display: inline;
-  margin-bottom: 0px;
-}
-
-/*Paragraph Headings for Local Leaders (navy blue)*/
-.llp-heading {
-  font-size: 140%;
-  font-style: italic;
-  color: #173e6b;
-  margin: 20px 0 5px 0;
-}
-
-.llp-heading2 {
-  font-size: 100%;
-  text-transform: uppercase;
-  color: #173e6b;
-  font-weight: bold;
-  margin-top: 25px;
-}
-
-.llp-heading3 {
-  font-size: 100%;
-  text-transform: uppercase;
-  color: #173e6b;
-  display: inline-block;
-  margin-bottom: 0px;
-}
-
-.llp-heading4 {
-  color: #173e6b;
-  font-style: italic;
-  /*font-weight:bold;*/
-  font-size: 110%;
 }
 
 /**/
