@@ -400,7 +400,7 @@ body {
 }
 #sidebar .nav p {
   font-weight: normal;
-  text-transform: capitalize;
+  text-transform: none;
 }
 #sidebar .nav .nav {
   display: none;
@@ -437,10 +437,10 @@ body {
   color: #1c818f;
 }
 #sidebar .nav.turquoise li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #1c818f;
+  border-top: 6px solid #1c818f;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.turquoise li.active .caret.down {
   border-top: 6px solid #1c818f;
@@ -449,10 +449,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.turquoise li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #1c818f;
+  border-top: 6px solid #1c818f;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.turquoise li.active a:hover .caret.down {
   border-top: 6px solid #1c818f;
@@ -467,10 +467,10 @@ body {
   color: #dc4831;
 }
 #sidebar .nav.red li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #dc4831;
+  border-top: 6px solid #dc4831;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.red li.active .caret.down {
   border-top: 6px solid #dc4831;
@@ -479,10 +479,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.red li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #dc4831;
+  border-top: 6px solid #dc4831;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.red li.active a:hover .caret.down {
   border-top: 6px solid #dc4831;
@@ -497,10 +497,10 @@ body {
   color: #7fc7b6;
 }
 #sidebar .nav.teal li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #7fc7b6;
+  border-top: 6px solid #7fc7b6;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.teal li.active .caret.down {
   border-top: 6px solid #7fc7b6;
@@ -509,10 +509,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.teal li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #7fc7b6;
+  border-top: 6px solid #7fc7b6;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.teal li.active a:hover .caret.down {
   border-top: 6px solid #7fc7b6;
@@ -527,10 +527,10 @@ body {
   color: #a9c038;
 }
 #sidebar .nav.green li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #a9c038;
+  border-top: 6px solid #a9c038;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.green li.active .caret.down {
   border-top: 6px solid #a9c038;
@@ -539,10 +539,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.green li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #a9c038;
+  border-top: 6px solid #a9c038;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.green li.active a:hover .caret.down {
   border-top: 6px solid #a9c038;
@@ -557,10 +557,10 @@ body {
   color: #173e6b;
 }
 #sidebar .nav.navy_blue li.active .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #173e6b;
+  border-top: 6px solid #173e6b;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.navy_blue li.active .caret.down {
   border-top: 6px solid #173e6b;
@@ -569,10 +569,10 @@ body {
   border-bottom: 0px dotted;
 }
 #sidebar .nav.navy_blue li.active a:hover .caret {
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  border-right: 6px dotted;
-  border-left: 0px solid #173e6b;
+  border-top: 6px solid #173e6b;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
 }
 #sidebar .nav.navy_blue li.active a:hover .caret.down {
   border-top: 6px solid #173e6b;
@@ -810,7 +810,7 @@ html {
 .page-title {
   font-family: Georgia, serif;
   font-size: 265%;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 /*The text following the title*/
@@ -848,6 +848,9 @@ html {
 .p-heading.blue {
   color: #173e6b;
 }
+.p-heading.green {
+  color: #a9c038;
+}
 
 .p-heading2 {
   font-size: 100%;
@@ -863,6 +866,9 @@ html {
 }
 .p-heading2.blue {
   color: #173e6b;
+}
+.p-heading2.green {
+  color: #a9c038;
 }
 
 .p-heading3 {
@@ -968,11 +974,16 @@ html {
   padding: 20px 0 20px 0;
 }
 
-#caption-block {
-  padding: 20px 0 50px 0;
-  color: #dc4831;
+.caption-block {
+  padding: 20px 0 20px 0;
   font-style: italic;
   font-size: 120%;
+}
+.caption-block.red {
+  color: #dc4831;
+}
+.caption-block.green {
+  color: #a9c038;
 }
 
 .play-button {
@@ -985,8 +996,9 @@ html {
 
 .note {
   font-style: italic;
-  font-size: 120%;
+  font-size: 115%;
   display: inline;
+  line-height: -30;
   /*padding-left:10px;*/
   /*margin-bottom: 20px;*/
 }
@@ -998,6 +1010,9 @@ html {
 }
 .note.turquoise {
   color: #1c818f;
+}
+.note.green {
+  color: #a9c038;
 }
 
 /**/
@@ -1031,6 +1046,18 @@ html {
   position: relative;
   z-index: 1;
   margin-top: -20px;
+}
+
+.indent {
+  margin: 0 60px 0 50px;
+}
+
+ol li {
+  margin-bottom: 25px;
+}
+
+ul li {
+  margin-bottom: 10px;
 }
 
 /* Float Clearing

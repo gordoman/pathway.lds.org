@@ -809,7 +809,7 @@ html {
 .page-title {
   font-family: Georgia, serif;
   font-size: 265%;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 /*The text following the title*/
@@ -847,6 +847,9 @@ html {
 .p-heading.blue {
   color: #173e6b;
 }
+.p-heading.green {
+  color: #a9c038;
+}
 
 .p-heading2 {
   font-size: 100%;
@@ -862,6 +865,9 @@ html {
 }
 .p-heading2.blue {
   color: #173e6b;
+}
+.p-heading2.green {
+  color: #a9c038;
 }
 
 .p-heading3 {
@@ -967,11 +973,16 @@ html {
   padding: 20px 0 20px 0;
 }
 
-#caption-block {
-  padding: 20px 0 50px 0;
-  color: #dc4831;
+.caption-block {
+  padding: 20px 0 20px 0;
   font-style: italic;
   font-size: 120%;
+}
+.caption-block.red {
+  color: #dc4831;
+}
+.caption-block.green {
+  color: #a9c038;
 }
 
 .play-button {
@@ -984,8 +995,9 @@ html {
 
 .note {
   font-style: italic;
-  font-size: 120%;
+  font-size: 115%;
   display: inline;
+  line-height: -30;
   /*padding-left:10px;*/
   /*margin-bottom: 20px;*/
 }
@@ -997,6 +1009,9 @@ html {
 }
 .note.turquoise {
   color: #1c818f;
+}
+.note.green {
+  color: #a9c038;
 }
 
 /**/
@@ -1030,4 +1045,16 @@ html {
   position: relative;
   z-index: 1;
   margin-top: -20px;
+}
+
+.indent {
+  margin: 0 60px 0 50px;
+}
+
+ol li {
+  margin-bottom: 25px;
+}
+
+ul li {
+  margin-bottom: 10px;
 }
