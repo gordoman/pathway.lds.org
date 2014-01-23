@@ -38,17 +38,6 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-<style>
-/* Fix for sidebar because the content lengthens in tablet view */
-#sidebar {
-	padding-bottom:3050px;
-}
-@media (max-width: 992px) {
-	#sidebar {
-		padding-bottom:4165px;
-	}	
-}
-</style>
 </head>
 
 <!-- STUDY http://demo.fifothemes.com/pixma/ -->
@@ -130,13 +119,13 @@
 
 <!-- Start to the content area -->
 
-<div class="container">
+<div id="main-container" class="container">
 	<div class="row row-offcanvas row-offcanvas-right">
 		<div class="col-xs-12 col-sm-8 main-content">
 			<button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
             <img id="arrow-icon" src="../../img/arrow.png" width="14" height="14" alt="arrow">
 <!--<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar" style="width: 3px;float: left;"></span>
+<span class="icon-bar" style="width: 3px;float: left;">f</span>
 <span class="icon-bar" style=" float: left;margin-left: 3px;width: 16px;margin-top: 0;"></span>
 <span class="icon-bar" style="float: left;clear: left;margin-left: 6px;width: 16px;"></span>
 <span class="icon-bar" style="float: left;clear: left;margin-left: 6px; width: 16px;"></span>-->
@@ -195,7 +184,7 @@
 		</div>
 		
 		<!-- sidebar -->
-		<div class="col-xs-6 col-sm-4 sidebar-offcanvas pull-right" style="" id="sidebar" role="navigation">
+		<div class="col-xs-6 col-sm-4 sidebar-offcanvas pull-right" id="sidebar" role="navigation">
 			<div class="pf-sidebar" id="sideNav" role="complementary">
             <div class="sidebar-caret pos3"></div>
             

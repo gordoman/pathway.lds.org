@@ -410,6 +410,7 @@ body {
   }
 }
 #sidebar {
+  padding-bottom: 200px;
   position: relative;
   background-color: #d9d9d9;
   border-right: solid white 20px;
@@ -1035,10 +1036,11 @@ html {
 
 .play-button {
   display: inline;
+  float: left;
   height: 36px;
   width: 39px;
   margin-right: 10px;
-  /*margin-bottom: 20px;*/
+  margin-bottom: 20px;
 }
 
 .note {
