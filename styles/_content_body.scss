@@ -27,8 +27,8 @@
 	}
 }
 
-/*Paragraph Headings for Standard (red)*/
-.p-heading {
+/*Paragraph Headings*/
+.p-heading{
 	font-size:140%;
 	font-style: italic;
 	margin: 20px 0 5px 0;
@@ -70,37 +70,27 @@
 .p-heading3{
 	font-size:100%;
 	text-transform: uppercase;
-	color:$red;
 	display:inline;
 	margin-bottom:0px;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+	&.blue{
+		color:$navy_blue;
+
+	}
+	&.green{
+		color:$green;
+	}
 }
 
-/*Paragraph Headings for L Version (blue)*/
-
-.lp-heading3{
-	font-size:100%;
-	text-transform: uppercase;
-	color:$turquoise;
-	display:inline;
-	margin-bottom:0px;
-}
-
-/*Paragraph Headings only for Local Leaders (navy blue)*/
-
-
-.llp-heading3{
-	font-size:100%;
-	text-transform: uppercase;
-	color:$navy_blue;
-	display:inline-block;
-	margin-bottom:0px;
-}
-
-.p-heading4{
-	color:$navy_blue; 
+.p-heading4{ 
 	font-style:italic; 
 	font-size: 110%;
-	&.blue{
+	&.blue{ /*local leaders*/
 		color:$navy_blue;
 	}
 }
@@ -117,7 +107,6 @@
 	}
 }
 
-/**/
 #footnote{
 	font-size:100%;
 	font-style: italic;
@@ -149,14 +138,14 @@
 	}
 	&.turquoise{
 		color:$turquoise;
-		a{
+			a{
 				text-decoration: underline;
 				color:$turquoise;
 			}
 	}
 	&.blue{
 		color:$navy_blue;
-		a{
+			a{
 				text-decoration: underline;
 				color:$navy_blue;
 			}
@@ -197,9 +186,8 @@
 }
 .note{
 	font-style: italic;
-	font-size: 115%;
+	font-size: 110%;
 	display:inline;
-	line-height:-30;
 	/*padding-left:10px;*/
 	/*margin-bottom: 20px;*/
 	&.blue{
@@ -216,8 +204,6 @@
 	}
 }
 
-
-/**/
 .local-quote{
 	font-size:140%;
 	font-style: italic;
