@@ -179,10 +179,11 @@
 
 .play-button{
 	display:inline;
+	float:left;
 	height:36px;
 	width:39px;
 	margin-right:10px;
-	/*margin-bottom: 20px;*/
+	margin-bottom: 20px;
 }
 .note{
 	font-style: italic;
