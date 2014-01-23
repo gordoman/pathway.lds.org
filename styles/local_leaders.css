@@ -1106,6 +1106,13 @@ ul li {
   margin-bottom: 10px;
 }
 
+.highlight {
+  font-style: italic;
+}
+.highlight.green {
+  color: #a9c038;
+}
+
 /* Float Clearing
  ---------------------------------------------------------------------*/
 .module:after {
