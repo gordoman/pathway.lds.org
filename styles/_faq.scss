@@ -1,0 +1,15 @@
+.collapsible {
+	display:block;
+	overflow:hidden;
+}
+
+.p-heading {
+	cursor: pointer;
+	@for $i from 1 through 5 {
+		&.#{nth($nav_color_labels, $i)}{
+			a {
+				color: nth($nav_color_list, $i);
+			}
+		}
+	}
+}

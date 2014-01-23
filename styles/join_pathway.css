@@ -4,6 +4,9 @@ body {
 }
 
 /*** END GLOBAL ***/
+/*********************
+   Header & Footer
+*********************/
 /****** Header ******/
 .pathway-header {
   padding: 0px;
@@ -59,7 +62,7 @@ body {
   font-weight: bold;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .signin-btn {
     height: 50px;
     margin-top: -5px;
@@ -187,6 +190,13 @@ body {
 }
 
 @media (max-width: 767px) {
+  .navbar-inverse {
+    border: none !important;
+  }
+
+  .site-navigation {
+    border: none !important;
+  }
   .site-navigation ul {
     margin: 0px;
   }
@@ -377,9 +387,6 @@ body {
 }
 #sidebar .header {
   padding-top: 40px;
-}
-#sidebar .header li {
-  margin-bottom: 40px;
 }
 #sidebar .header a.no-highlight {
   padding: 0;

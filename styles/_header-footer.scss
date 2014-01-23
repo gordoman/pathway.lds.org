@@ -1,6 +1,7 @@
-// *************
-//   CONSTANTS
-// *************
+/*********************
+   Header & Footer
+*********************/
+
 // Colors:
 @import "colorScheme";
 
@@ -59,7 +60,7 @@
 	font-weight:bold;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 	.signin-btn {
 		height:50px;
 		margin-top:-5px;
@@ -140,23 +141,20 @@
 	border:none;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-	.site-navigation {
-		//font-size: 11px;
-		
-		ul li {
-			//height: 60px;
-		}
-	}
-}
-
 @media (max-width: 767px) {
-	.site-navigation ul {
-		margin: 0px;
+	.navbar-inverse {
+		border:none !important;
+	}
+	.site-navigation {
+	
+		border:none !important;
+		 ul {
+			margin: 0px;
 		
-		li {
-			width: 100%;
-			border: 0;
+			li {
+				width: 100%;
+				border: 0;
+			}
 		}
 	}
 	

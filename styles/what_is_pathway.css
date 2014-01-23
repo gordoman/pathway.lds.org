@@ -4,6 +4,9 @@ body {
 }
 
 /*** END GLOBAL ***/
+/*********************
+   Header & Footer
+*********************/
 /****** Header ******/
 .pathway-header {
   padding: 0px;
@@ -59,7 +62,7 @@ body {
   font-weight: bold;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .signin-btn {
     height: 50px;
     margin-top: -5px;
@@ -187,6 +190,13 @@ body {
 }
 
 @media (max-width: 767px) {
+  .navbar-inverse {
+    border: none !important;
+  }
+
+  .site-navigation {
+    border: none !important;
+  }
   .site-navigation ul {
     margin: 0px;
   }
@@ -377,9 +387,6 @@ body {
 }
 #sidebar .header {
   padding-top: 40px;
-}
-#sidebar .header li {
-  margin-bottom: 40px;
 }
 #sidebar .header a.no-highlight {
   padding: 0;
@@ -816,7 +823,6 @@ html {
 .page-summary {
   font-size: 120%;
   font-style: italic;
-  /*margin-top:0px;*/
 }
 
 /*The second heading on most pages*/
@@ -1047,6 +1053,7 @@ html {
   margin-top: -20px;
 }
 
+<<<<<<< HEAD
 .indent {
   margin: 0 60px 0 50px;
 }
@@ -1057,4 +1064,28 @@ ol li {
 
 ul li {
   margin-bottom: 10px;
+=======
+.collapsible {
+  display: block;
+  overflow: hidden;
+}
+
+.p-heading {
+  cursor: pointer;
+}
+.p-heading.turquoise a {
+  color: #1c818f;
+}
+.p-heading.red a {
+  color: #dc4831;
+}
+.p-heading.teal a {
+  color: #7fc7b6;
+}
+.p-heading.green a {
+  color: #a9c038;
+}
+.p-heading.navy_blue a {
+  color: #173e6b;
+>>>>>>> 3879c5d5277164fe4951ae684a75d2ed5e0bb567
 }
