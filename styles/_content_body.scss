@@ -250,3 +250,10 @@ ul{
 		margin-bottom: 10px;
 	}
 }
+
+.highlight{
+	font-style:italic;
+	&.green{
+		color:$green;
+	}
+}
