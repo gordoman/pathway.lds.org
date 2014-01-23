@@ -823,7 +823,6 @@ html {
 .page-summary {
   font-size: 120%;
   font-style: italic;
-  /*margin-top:0px;*/
 }
 
 /*The second heading on most pages*/
@@ -1037,4 +1036,25 @@ html {
   position: relative;
   z-index: 1;
   margin-top: -20px;
+}
+
+.collapsible {
+  display: block;
+  overflow: hidden;
+}
+
+.p-heading.turquoise a {
+  color: #1c818f;
+}
+.p-heading.red a {
+  color: #dc4831;
+}
+.p-heading.teal a {
+  color: #7fc7b6;
+}
+.p-heading.green a {
+  color: #a9c038;
+}
+.p-heading.navy_blue a {
+  color: #173e6b;
 }
