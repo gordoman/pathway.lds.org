@@ -69,10 +69,61 @@ body {
  
 .navbar-toggle {
 	$direction: right;
-	
 	float: $direction;
-	margin-#{$direction}: 10px;
-} 
+	margin-#{$direction}: 0px;
+}
+
+.sidebar-btn {
+	background-color:$sidebar_gray;
+	height: 35px;
+	img {
+		vertical-align:initial;
+	}
+	.icon-bar {
+		background-color:$body-text;
+	}
+	#arrow-icon.inverse {
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+       	transform: scaleX(-1);
+       	filter: FlipH;
+       	-ms-filter: "FlipH";
+	}
+}
+
+.mobile_s-l {
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	p {
+		padding:5px;
+		width:50%;
+		display:block;
+		float:left;
+		.caption {
+			display:block;
+			padding-top:5px;
+			font-weight:bold;
+			text-style:italic;
+			margin:0 10px;
+		}
+		img {
+			width:100%;
+		}
+	}
+}
+@media screen and (max-width: 485px) {
+	.mobile_s-l {
+		p {
+			width:100%;
+			.caption {
+				font-size:110%;
+			}
+		}
+		
+	}
+}
  
 #sidebar {
 	$logo_size:45px;
