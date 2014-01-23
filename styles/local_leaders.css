@@ -818,6 +818,7 @@ html {
   font-family: Georgia, serif;
   font-size: 265%;
   margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 /*The text following the title*/

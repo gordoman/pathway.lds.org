@@ -817,6 +817,7 @@ html {
   font-family: Georgia, serif;
   font-size: 265%;
   margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 /*The text following the title*/
@@ -1053,7 +1054,6 @@ html {
   margin-top: -20px;
 }
 
-<<<<<<< HEAD
 .indent {
   margin: 0 60px 0 50px;
 }
@@ -1064,7 +1064,8 @@ ol li {
 
 ul li {
   margin-bottom: 10px;
-=======
+}
+
 .collapsible {
   display: block;
   overflow: hidden;
@@ -1087,5 +1088,4 @@ ul li {
 }
 .p-heading.navy_blue a {
   color: #173e6b;
->>>>>>> 3879c5d5277164fe4951ae684a75d2ed5e0bb567
 }
