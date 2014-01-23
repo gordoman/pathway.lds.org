@@ -247,99 +247,6 @@ footer .navbar-nav {
   padding-left: 0px;
 }
 
-/**************************
-   PF-SECTION STYLE SHEET
- **************************/
-@media (min-width: 480px) {
-  .hero {
-    padding-left: 64px;
-  }
-}
-.hero.no-icon {
-  padding-left: 0 !important;
-}
-.hero img {
-  left: 0 !important;
-  top: 6% !important;
-}
-
-.pf-section {
-  /*a {color:$red;}*/
-  /*	h3 {
-  		color: $red;
-  	}	*/
-  /*	h4 {
-  		color: $teal;
-  	}*/
-  /*	p ~ img {
-  		width: 70%;
-  		@media (max-width: 479px) {
-  			width: 100%;
-  		}
-  	}*/
-}
-@media (min-width: 480px) {
-  .pf-section {
-    padding-left: 64px;
-  }
-}
-.pf-section.no-icon {
-  padding-left: 0 !important;
-}
-.pf-section h5 {
-  color: #666666;
-}
-.pf-section p {
-  /*text-transform: none;*/
-}
-@media (max-width: 479px) {
-  .pf-section p {
-    font-size: 16px;
-  }
-}
-.pf-section .formula {
-  width: 75%;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 1.5em;
-  background-color: #f3ab1f;
-  color: white;
-  padding: 10px;
-  -webkit-box-shadow: 7px 7px 10px rgba(50, 50, 50, 0.34);
-  -moz-box-shadow: 7px 7px 10px rgba(50, 50, 50, 0.34);
-  box-shadow: 7px 7px 10px rgba(50, 50, 50, 0.34);
-  /* .part1 {
-  	color:$turquoise;
-  }
-  .part2 {
-  	color:$navy_blue;
-  }
-  .part3 {
-  	color:$red;
-  } */
-}
-
-.pf-page-header {
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
-}
-.pf-page-header img {
-  margin-top: 10px;
-  position: absolute;
-  top: 15%;
-  left: -64px;
-  max-width: 51px;
-}
-@media (max-width: 479px) {
-  .pf-page-header img {
-    display: none;
-  }
-}
-.pf-page-header p {
-  text-transform: none;
-}
-
 /************************
 	 SIDE BAR STYLE SHEET
  ************************/
@@ -750,11 +657,6 @@ body {
     border-bottom-color: transparent;
   }
 }
-html {
-  overflow: -moz-scrollbars-vertical;
-  overflow-y: scroll;
-}
-
 /* Float Clearing
  ---------------------------------------------------------------------*/
 .module:after {
