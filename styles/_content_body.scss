@@ -257,3 +257,41 @@ ul{
 		color:$green;
 	}
 }
+
+.previous{
+	margin-top: 50px;
+	font-style:italic; 
+	font-weight: bold;
+	float:left;
+	&.blue{
+		color:$navy_blue;
+	}
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+	&.green{
+		color:$green;
+	}
+}
+
+.next{
+	margin-top: 50px;
+	font-style:italic; 
+	font-weight: bold;
+	float:right;
+	&.blue{
+		color:$navy_blue;
+	}
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+	&.green{
+		color:$green;
+	}
+}

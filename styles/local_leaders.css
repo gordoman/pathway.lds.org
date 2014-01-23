@@ -1113,6 +1113,44 @@ ul li {
   color: #a9c038;
 }
 
+.previous {
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: bold;
+  float: left;
+}
+.previous.blue {
+  color: #173e6b;
+}
+.previous.red {
+  color: #dc4831;
+}
+.previous.turquoise {
+  color: #1c818f;
+}
+.previous.green {
+  color: #a9c038;
+}
+
+.next {
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+}
+.next.blue {
+  color: #173e6b;
+}
+.next.red {
+  color: #dc4831;
+}
+.next.turquoise {
+  color: #1c818f;
+}
+.next.green {
+  color: #a9c038;
+}
+
 /* Float Clearing
  ---------------------------------------------------------------------*/
 .module:after {
