@@ -106,8 +106,6 @@
    				</div>
    			</div>
    		</div>  
-   		<div id="sub_nav" class="nav-wrapper affix navbar">
-   		</div>
    	</header>
 
    	<!-- Start to the content area -->
@@ -115,13 +113,21 @@
    	<div class="container">
    		<div class="row row-offcanvas row-offcanvas-right">
    			<div class="col-xs-12 col-sm-8">
+            <button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+            <img id="arrow-icon" src="../../img/arrow.png" width="14" height="14" alt="arrow">
+<!--<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar" style="width: 3px;float: left;"></span>
+<span class="icon-bar" style=" float: left;margin-left: 3px;width: 16px;margin-top: 0;"></span>
+<span class="icon-bar" style="float: left;clear: left;margin-left: 6px;width: 16px;"></span>
+<span class="icon-bar" style="float: left;clear: left;margin-left: 6px; width: 16px;"></span>-->
+</button>
    				<div class="hero pf-page-header no-icon">
    					<h1 id="Standard" class="page-title">Speaking Partners</h1>
    				</div>
-   				<div class="pf-section no-icon main-content">
+   				<div class="pf-section no-icon">
    					<h2 id="HowPathwayWorks" class="subheading green">Discussion Materials</h2>
    				</div>
-   				<div class="pf-section no-icon main-content">
+   				<div class="pf-section no-icon">
    					<p>Although the most important thing you can do is meet with your
             partner to speak English, discussion material is provided below which
             correlates with the Pathway student's coursework.</p>
@@ -213,7 +219,6 @@
 	<!-- Placed at the end of the document so the pages load faster --> 
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
 	<script src="../../dist/js/bootstrap.min.js"></script> 
-	<script src="../../js/modernizr.custom.min.js"></script>
-	<script src="../../js/content.js" type="text/javascript"></script>
+    <script src="../../js/drawer.js"></script>
 </body>
 </html>

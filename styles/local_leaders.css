@@ -357,9 +357,58 @@ body {
 
 .navbar-toggle {
   float: right;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
+.sidebar-btn {
+  background-color: #d9d9d9;
+  height: 35px;
+}
+.sidebar-btn img {
+  vertical-align: initial;
+}
+.sidebar-btn .icon-bar {
+  background-color: #222222;
+}
+.sidebar-btn #arrow-icon.inverse {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.mobile_s-l {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.mobile_s-l p {
+  padding: 5px;
+  width: 50%;
+  display: block;
+  float: left;
+}
+.mobile_s-l p .caption {
+  display: block;
+  padding-top: 5px;
+  font-weight: bold;
+  text-style: italic;
+  margin: 0 10px;
+}
+.mobile_s-l p img {
+  width: 100%;
+}
+
+@media screen and (max-width: 485px) {
+  .mobile_s-l p {
+    width: 100%;
+  }
+  .mobile_s-l p .caption {
+    font-size: 110%;
+  }
+}
 #sidebar {
   position: relative;
   background-color: #d9d9d9;
@@ -1055,6 +1104,13 @@ ol li {
 
 ul li {
   margin-bottom: 10px;
+}
+
+.highlight {
+  font-style: italic;
+}
+.highlight.green {
+  color: #a9c038;
 }
 
 /* Float Clearing

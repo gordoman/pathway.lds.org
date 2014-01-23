@@ -106,8 +106,6 @@
    				</div>
    			</div>
    		</div>  
-   		<div id="sub_nav" class="nav-wrapper affix navbar">
-   		</div>
    	</header>
 
    	<!-- Start to the content area -->
@@ -115,21 +113,29 @@
    	<div class="container">
    		<div class="row row-offcanvas row-offcanvas-right">
    			<div class="col-xs-12 col-sm-8">
+            <button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+            <img id="arrow-icon" src="../../img/arrow.png" width="14" height="14" alt="arrow">
+<!--<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar" style="width: 3px;float: left;"></span>
+<span class="icon-bar" style=" float: left;margin-left: 3px;width: 16px;margin-top: 0;"></span>
+<span class="icon-bar" style="float: left;clear: left;margin-left: 6px;width: 16px;"></span>
+<span class="icon-bar" style="float: left;clear: left;margin-left: 6px; width: 16px;"></span>-->
+</button>
    				<div class="hero pf-page-header no-icon">
    					<h1 id="Standard" class="page-title">Local Leaders</h1>
    				</div>
-   				<div class="pf-section no-icon main-content">
+   				<div class="pf-section no-icon">
    					<h2 id="HowPathwayWorks" class="subheading blue">Roles and Responsibilities</h2>
    				</div>
-   				<div class="pf-section no-icon main-content">
+   				<div class="pf-section no-icon">
    					<p>Because Pathway is administered at the local level, BYU-Idaho relies heavily on priesthood and auxiliary leaders, institute directors, and Pathway Church service missionaries for the on-site management and ongoing success of the program.</p>
    				</div> 
 
-   				<div class="pf-section no-icon main-content">
+   				<div class="pf-section no-icon">
    					<h3 class="p-heading blue">Roles of Priesthood Leaders</h3>
    					<p>Priesthood support is vital to the success of the program at each individual Pathway location. While BYU-Idaho does not direct the priesthood in their duties, the university does ask local priesthood leaders to offer support and assist in the process of identifying Church members who could potentially benefit from Pathway's educational and spiritual blessings.</p>
    				</div>
-   				<div class="pf-section no-icon main-content">
+   				<div class="pf-section no-icon">
    					<p>The basic priesthood roles in support of Pathway include:</p>
    					<ul>
    						<h4 class="p-heading2 blue">AREA SEVENTIES</h4>
@@ -146,7 +152,7 @@
    						<li>Assist in the recruitment of prospective students</li>
    					</ul>
    				</div>
-   				<div class="pf-section no-icon main-content">
+   				<div class="pf-section no-icon">
    					<h3 class="p-heading blue">Role of Institutes</h3>
    					<p>Because Pathway’s primary target audience is Church members between the ages of 18 and 30, local institute directors play an important role in the program. Here are some of the ways institutes help support Pathway:</p>
    					<ul>
@@ -155,7 +161,7 @@
    						<li>Assist with student recruitment</li>
    					</ul>
    				</div>
-   				<div class="pf-section no-icon main-content">
+   				<div class="pf-section no-icon">
    					<h3 class="p-heading blue">Role of Pathway Missionaries</h3>
    					<p>BYU-Idaho relies heavily on Church service missionaries to assist with the on-site management of Pathway. While priesthood leaders and institute directors support the program, the missionaries do the bulk of the work to ensure Pathway is successful and that students have a meaningful experience. Missionaries are primarily asked to:</p>
    					<ul>
@@ -219,5 +225,6 @@
 	<!-- Placed at the end of the document so the pages load faster --> 
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
 	<script src="../../dist/js/bootstrap.min.js"></script> 
+    <script src="../../js/drawer.js"></script>
 </body>
 </html>
