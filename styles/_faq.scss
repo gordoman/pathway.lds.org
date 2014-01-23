@@ -4,6 +4,7 @@
 }
 
 .p-heading {
+	cursor: pointer;
 	@for $i from 1 through 5 {
 		&.#{nth($nav_color_labels, $i)}{
 			a {

@@ -1043,6 +1043,9 @@ html {
   overflow: hidden;
 }
 
+.p-heading {
+  cursor: pointer;
+}
 .p-heading.turquoise a {
   color: #1c818f;
 }
