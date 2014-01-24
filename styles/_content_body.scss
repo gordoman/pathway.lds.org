@@ -25,6 +25,9 @@
 	&.green{
 		color:$green;
 	}
+	&.turquoise{
+		color:$turquoise;
+	}
 }
 
 /*Paragraph Headings*/
@@ -297,6 +300,14 @@ ul{
 	}
 }
 
+hr.line{
+	/*&.turquoise{*/
+	    color:$turquoise;
+	    width:100%;
+	    height:3px;
+	/*} */  
+}
+
 
 
 // ******************
@@ -408,4 +419,5 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
 	p {
 		text-transform: none;
 	}
+
 }
