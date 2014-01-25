@@ -1,4 +1,24 @@
 /** Global Styles **/
+.turquoise {
+  color: #1c818f;
+}
+
+.red {
+  color: #dc4831;
+}
+
+.teal {
+  color: #7fc7b6;
+}
+
+.green {
+  color: #a9c038;
+}
+
+.navy_blue {
+  color: #173e6b;
+}
+
 body {
   color: #222222;
 }
@@ -7,6 +27,26 @@ body {
 /*********************
    Header & Footer
 *********************/
+.turquoise {
+  color: #1c818f;
+}
+
+.red {
+  color: #dc4831;
+}
+
+.teal {
+  color: #7fc7b6;
+}
+
+.green {
+  color: #a9c038;
+}
+
+.navy_blue {
+  color: #173e6b;
+}
+
 /****** Header ******/
 .pathway-header {
   padding: 0px;
@@ -205,6 +245,26 @@ body {
     width: 100%;
     border: 0;
   }
+  .site-navigation ul li.nav-1 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
+  .site-navigation ul li.nav-2 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
+  .site-navigation ul li.nav-3 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
+  .site-navigation ul li.nav-4 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
+  .site-navigation ul li.nav-5 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
 
   #siteNavigation {
     padding: 0;
@@ -242,6 +302,26 @@ footer .navbar-nav {
 .footer-links li:first-child {
   border-right: solid 1px;
   padding-left: 0px;
+}
+
+.turquoise {
+  color: #1c818f;
+}
+
+.red {
+  color: #dc4831;
+}
+
+.teal {
+  color: #7fc7b6;
+}
+
+.green {
+  color: #a9c038;
+}
+
+.navy_blue {
+  color: #173e6b;
 }
 
 /****************
@@ -315,6 +395,7 @@ div.feature img {
   left: 0;
   margin: 43px;
   margin-left: 97px;
+  color: #fff;
 }
 .carousel-caption.red {
   background-color: rgba(220, 72, 49, 0.8);
@@ -434,6 +515,7 @@ div.feature img {
   left: 0;
   margin: 43px;
   margin-left: 97px;
+  color: #fff;
 }
 .carousel-caption.red {
   background-color: rgba(220, 72, 49, 0.8);

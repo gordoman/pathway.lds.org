@@ -1,60 +1,13 @@
-// *************
-//   CONSTANTS
-// *************
-// Colors:
+/************************
+	SIDE BAR STYLE SHEET
+ ************************/
 @import "colorScheme";
 
+//constants
 $dark_gray:	#ddd;
 $link_color: #fff;
+$canvas_shift_amt: 250px;
 
-// ************
-//    MIXINS
-// ************
-@mixin backgroundColor ($isMobile:false) {
-	$mobile-bg-c:#3b3b3b;
-	$desktop-bg-c:#fff;
-	
-	@if ($isMobile == true) {
-		background-color: $mobile-bg-c;
-	} @else {
-		background-color: $desktop-bg-c;
-	}
-}
-
-// Off Canvas
-// $direction: left or right
-// $amount: accepts any numerical amount
-@mixin offcanvas ($direction:left, $amount:0) {
-	#{$direction}:$amount;
-}
-
-// Display SideBar
-@mixin SB_disp ($displayState:false) {
-	@if ($displayState == true) {
-		display:block;
-	} @else {
-		display:none;
-	}
-}
-
-@mixin row_offcanvas ($shift_direction, $canvas_shift_amt) {
-	.row-offcanvas-#{$shift_direction} {
-		&.active {
-			@include offcanvas($shift_direction, $canvas_shift_amt);
-			#sidebar {
-				@include SB_disp(true);
-			}
-		}
-		#sidebar {
-			@include offcanvas($shift_direction, -$canvas_shift_amt);
-		}
-	}	
-		
-}
-
-/************************
-	 SIDE BAR STYLE SHEET
- ************************/
 html, body { 
 	height:100%; 
 }
@@ -64,8 +17,6 @@ body {
 }
 
 .text-center { padding-top: 20px; }
-
-.col-xs-12 { @include backgroundColor (false); }
  
 .navbar-toggle {
 	$direction: right;
@@ -291,14 +242,6 @@ body {
  ***************/
 
 @media screen and (max-width: 767px) {
-
-/**************
-	 ROW CANVAS
- **************/
-	$canvas_shift_amt: 250px;
-
-	@include row_offcanvas(left, $canvas_shift_amt);
-	@include row_offcanvas(right, $canvas_shift_amt);
 	
 /************
 	 SIDE BAR
@@ -322,6 +265,7 @@ body {
 		
 		&.open-mobile {
 			display:block;
+			right: -250px;
 		}
 				
 		.nav {
@@ -333,16 +277,16 @@ body {
 					.nav { display:block; }
 					a {											
 						.caret {
-							border-left-color: transparent;
-							border-top-color: $body-text;
-							border-bottom-color: $body-text;
+							border-left-color: $body-text;
+							border-top-color: transparent;
+							border-bottom-color: transparent;
 						}
 						
 						&:hover, &:focus {					
 							.caret {
-								border-left-color: transparent;
-								border-top-color: $body-text;
-								border-bottom-color: $body-text;
+								border-left-color: $body-text;
+								border-top-color: transparent;
+								border-bottom-color: transparent;
 							}
 						}
 					}

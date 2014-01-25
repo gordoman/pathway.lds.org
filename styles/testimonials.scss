@@ -2,4 +2,26 @@
 @import "FunctionLibrary";
 @import "header-footer";
 @import "sidebar";
+@import "content_body";
 @import "BreadCrumb";
+
+.subheading {
+	 &.underline {
+	 	padding-bottom:15px;
+		margin-bottom:30px;
+	 	border-bottom: $turquoise solid 2px;
+	 }
+}
+
+.vid-title {
+	font-size:120%;
+	font-weight:bold;
+}
+
+.container {
+	clear:both;
+}
+
+.video-list {
+	padding:30px 0;
+}

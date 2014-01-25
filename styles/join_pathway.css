@@ -1,4 +1,24 @@
 /** Global Styles **/
+.turquoise {
+  color: #1c818f;
+}
+
+.red {
+  color: #dc4831;
+}
+
+.teal {
+  color: #7fc7b6;
+}
+
+.green {
+  color: #a9c038;
+}
+
+.navy_blue {
+  color: #173e6b;
+}
+
 body {
   color: #222222;
 }
@@ -7,6 +27,26 @@ body {
 /*********************
    Header & Footer
 *********************/
+.turquoise {
+  color: #1c818f;
+}
+
+.red {
+  color: #dc4831;
+}
+
+.teal {
+  color: #7fc7b6;
+}
+
+.green {
+  color: #a9c038;
+}
+
+.navy_blue {
+  color: #173e6b;
+}
+
 /****** Header ******/
 .pathway-header {
   padding: 0px;
@@ -205,6 +245,26 @@ body {
     width: 100%;
     border: 0;
   }
+  .site-navigation ul li.nav-1 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
+  .site-navigation ul li.nav-2 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
+  .site-navigation ul li.nav-3 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
+  .site-navigation ul li.nav-4 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
+  .site-navigation ul li.nav-5 a {
+    border-bottom: solid 1px;
+    border-bottom-color: #d9d9d9;
+  }
 
   #siteNavigation {
     padding: 0;
@@ -245,8 +305,28 @@ footer .navbar-nav {
 }
 
 /************************
-	 SIDE BAR STYLE SHEET
+	SIDE BAR STYLE SHEET
  ************************/
+.turquoise {
+  color: #1c818f;
+}
+
+.red {
+  color: #dc4831;
+}
+
+.teal {
+  color: #7fc7b6;
+}
+
+.green {
+  color: #a9c038;
+}
+
+.navy_blue {
+  color: #173e6b;
+}
+
 html, body {
   height: 100%;
 }
@@ -257,10 +337,6 @@ body {
 
 .text-center {
   padding-top: 20px;
-}
-
-.col-xs-12 {
-  background-color: white;
 }
 
 .navbar-toggle {
@@ -580,29 +656,6 @@ body {
 	 For Tablets
  ***************/
 @media screen and (max-width: 767px) {
-  /**************
-  	 ROW CANVAS
-   **************/
-  .row-offcanvas-left.active {
-    left: 250px;
-  }
-  .row-offcanvas-left.active #sidebar {
-    display: block;
-  }
-  .row-offcanvas-left #sidebar {
-    left: -250px;
-  }
-
-  .row-offcanvas-right.active {
-    right: 250px;
-  }
-  .row-offcanvas-right.active #sidebar {
-    display: block;
-  }
-  .row-offcanvas-right #sidebar {
-    right: -250px;
-  }
-
   /************
   	 SIDE BAR
    ************/
@@ -623,6 +676,7 @@ body {
   }
   #sidebar.open-mobile {
     display: block;
+    right: -250px;
   }
   #sidebar .nav li:first-child {
     border-top: 0;
@@ -631,14 +685,14 @@ body {
     display: block;
   }
   #sidebar .nav li:active a .caret {
-    border-left-color: transparent;
-    border-top-color: #222222;
-    border-bottom-color: #222222;
+    border-left-color: #222222;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
   }
   #sidebar .nav li:active a:hover .caret, #sidebar .nav li:active a:focus .caret {
-    border-left-color: transparent;
-    border-top-color: #222222;
-    border-bottom-color: #222222;
+    border-left-color: #222222;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
   }
   #sidebar .nav li a img {
     max-width: 14px;

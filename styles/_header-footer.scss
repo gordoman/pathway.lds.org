@@ -155,6 +155,16 @@
 			li {
 				width: 100%;
 				border: 0;
+				
+				@for $i from 1 through 5 {
+				&.nav-#{$i} {
+					a {
+						border-bottom: solid 1px;
+						border-bottom-color: $sidebar-gray;
+					}
+				}
+			}
+				
 			}
 		}
 	}
