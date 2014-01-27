@@ -1001,14 +1001,13 @@ ul li {
   color: #a9c038;
 }
 
-hr.line {
-  /*&.turquoise{*/
-  color: #1c818f;
-  width: 100%;
-  height: 3px;
-  /*} */
-}
-
+/*hr.line{
+	&.turquoise{
+	    color:$turquoise;
+	    width:100%;
+	    height:3px;
+	}   
+}*/
 /**************************
    PF-SECTION STYLE SHEET
  **************************/
@@ -1219,9 +1218,18 @@ hr.line {
   border-bottom: #1c818f solid 2px;
 }
 
-.vid-title {
-  font-size: 120%;
+.feature-vid-title {
+  font-size: 150%;
   font-weight: bold;
+  color: #1c818f;
+  text-transform: none;
+}
+
+.vid-title {
+  font-size: 130%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1c818f;
 }
 
 .container {

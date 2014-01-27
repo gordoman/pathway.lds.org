@@ -1113,14 +1113,13 @@ ul li {
   color: #a9c038;
 }
 
-hr.line {
-  /*&.turquoise{*/
-  color: #1c818f;
-  width: 100%;
-  height: 3px;
-  /*} */
-}
-
+/*hr.line{
+	&.turquoise{
+	    color:$turquoise;
+	    width:100%;
+	    height:3px;
+	}   
+}*/
 /**************************
    PF-SECTION STYLE SHEET
  **************************/

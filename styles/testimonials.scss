@@ -11,11 +11,21 @@
 		margin-bottom:30px;
 	 	border-bottom: $turquoise solid 2px;
 	 }
+
+}
+
+.feature-vid-title {
+	font-size:150%;
+	font-weight:bold;
+	color:$turquoise;
+	text-transform: none;
 }
 
 .vid-title {
-	font-size:120%;
+	font-size: 130%;
 	font-weight:bold;
+	text-transform: uppercase;
+	color:$turquoise;
 }
 
 .container {
