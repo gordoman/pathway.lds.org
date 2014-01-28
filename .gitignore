@@ -225,6 +225,7 @@ gitignore/
 # file extensions
 *.ai
 *.lnk
+*.psd
 
 #files
 website_contentpageexample.pdf
