@@ -111,6 +111,7 @@ body {
 }
 #siteNavigation {
   padding: 0;
+  border: none;
 }
 
 .site-navigation {
