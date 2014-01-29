@@ -310,6 +310,30 @@ ul{
 	}   
 }*/
 
+/*makes videos responsive*/
+.responsive-video-container {
+	position: relative; 
+	padding-bottom: 56.25%; 
+	padding-top: 30px; 
+	margin-top: 15px;
+	margin-bottom: 20px;
+	height: 0; 
+	overflow: hidden; 
+	&.wip{
+		margin-top: 15px;
+	}
+	&.sp{
+		margin-top: 15px;
+	}
+}
+.responsive-video-container iframe { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%
+}
+
 
 
 // ******************
