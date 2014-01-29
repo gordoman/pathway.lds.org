@@ -1025,6 +1025,9 @@ ul li {
 .highlight.green {
   color: #a9c038;
 }
+.highlight.red {
+  color: #dc4831;
+}
 
 .previous {
   margin-top: 50px;
