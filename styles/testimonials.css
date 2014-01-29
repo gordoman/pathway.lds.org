@@ -1009,6 +1009,31 @@ ul li {
 	    height:3px;
 	}   
 }*/
+/*makes videos responsive*/
+.responsive-video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive-video-container.wip {
+  margin-top: 15px;
+}
+.responsive-video-container.sp {
+  margin-top: 15px;
+}
+
+.responsive-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /**************************
    PF-SECTION STYLE SHEET
  **************************/
