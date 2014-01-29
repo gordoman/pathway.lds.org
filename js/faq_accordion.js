@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//var height = $('p.collapsible').height();
-	$('p.collapsible').each(function (){
+	$('.collapsible').each(function (){
 		$(this).attr('xheight', $(this).height());
 		$(this).css('height','0px');
 	});
