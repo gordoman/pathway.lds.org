@@ -291,20 +291,82 @@ footer .navbar-nav {
   margin: 0;
 }
 
+.byui-logo {
+  float: right;
+}
+
 .footer-links {
   padding: 37px 0;
 }
-.footer-links .social-icon {
-  margin: 5px;
-}
-.footer-links li {
+.footer-links li a {
+  color: #222222;
   padding: 0 21px;
+  margin: 0;
+  display: inline;
+}
+.footer-links li a.social-icon {
+  margin: 5px;
+  padding: 0;
+}
+.footer-links li a:hover {
+  background: none;
+  text-decoration: underline;
 }
 .footer-links li:first-child {
   border-right: solid 1px;
   padding-left: 0px;
+  padding-right: 21px;
 }
 
+/***** Mobile Footer *****/
+@media (max-width: 767px) {
+  footer {
+    background: #d9d9d9;
+  }
+
+  .byui-logo {
+    display: block;
+    float: none;
+    margin: auto;
+  }
+
+  .faq-bubble {
+    vertical-align: super;
+  }
+
+  .footer-links li {
+    font-weight: bold;
+    font-size: 110%;
+    text-align: center;
+    border-bottom: #CCC solid 1px;
+  }
+  .footer-links li a {
+    display: block;
+    margin: 0;
+    padding: 30px;
+  }
+  .footer-links li a:hover {
+    text-decoration: none;
+  }
+  .footer-links li a.social-icon {
+    float: left;
+    width: 23%;
+    height: auto;
+  }
+  .footer-links li a.social-icon img {
+    width: 100%;
+    height: auto;
+  }
+  .footer-links li:first-child {
+    overflow: hidden;
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+  .footer-links li:last-child {
+    border: none;
+  }
+}
 /************************
 	SIDE BAR STYLE SHEET
  ************************/

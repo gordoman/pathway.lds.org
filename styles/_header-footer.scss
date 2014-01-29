@@ -202,20 +202,89 @@ footer {
 	}
 }
 
+.byui-logo {
+	float:right;
+}
+
 .footer-links{
 	
 	padding: 37px 0;
 	
-	.social-icon {
-		margin:5px;
-	}
-	
 	li {
-		padding:0 21px;
-		
+		a {
+			color:$body-text;
+			padding:0 21px;
+			margin:0;
+			display:inline;
+			
+			&.social-icon{
+				margin:5px;
+				padding:0;
+			}
+			
+			&:hover {
+				background:none;
+				text-decoration:underline;
+			}
+		}
 		&:first-child{
 			border-right: solid 1px;
 			padding-left:0px;
+			padding-right:21px;
+		}
+	}
+}
+
+/***** Mobile Footer *****/
+@media (max-width: 767px) {
+	footer {
+		background: $sidebar-gray;
+	}
+	
+	.byui-logo {
+		display:block;
+		float:none;
+		margin:auto;
+	}
+	
+	.faq-bubble {
+		vertical-align: super;
+	}	
+	
+	.footer-links{
+		li {
+			font-weight:bold;
+			font-size:110%;
+			text-align:center;
+			border-bottom:#CCC solid 1px;
+			a {
+				display:block;
+				margin:0;
+				padding:30px;
+				&:hover {
+					text-decoration:none;
+				}
+				
+				&.social-icon {
+					float:left;
+					width:23%;
+					height:auto;
+					
+					img {
+						width:100%;
+						height:auto;
+					}
+				}
+			}
+			&:first-child {
+				overflow:hidden;
+				width:100%;
+				border:none;
+				padding:0;
+			}
+			&:last-child {
+				border:none;
+			}
 		}
 	}
 }
