@@ -1,6 +1,65 @@
 @import "global";
 @import "FunctionLibrary";
 @import "header-footer";
-@import "home_content";
-@import "carousel";
 @import "BreadCrumb";
+@import "colorScheme";
+@import "carousel";
+
+// ******************
+//      CONSTANTS
+// ******************
+
+//$yellow:#f2aa1f;
+//$green:#a9c038;
+//$blue:#183e6b;
+
+$feature1_color: $pathway_orange;
+$feature2_color: $green;
+$feature3_color: $navy_blue;
+
+$feature_color_list : $feature1_color, $feature2_color, $feature3_color;
+
+/****************
+   HOME CONTENT
+ ****************/
+body {
+	text-transform: uppercase;
+}
+
+@for $i from 1 through 3 {
+	.feature#{$i} {
+		background-color: nth($feature_color_list, $i);
+	}
+}
+
+div.feature {
+	margin-bottom: 21px;
+	
+	img {
+		width:100%;
+	}
+}
+
+.featureMaster { 
+	display:table;
+	height:100px;
+	width:100%;
+	
+	span {
+		display:table-cell;
+		vertical-align:middle;
+		text-transform:uppercase; 
+		padding:0 22px;
+		color:white;
+		font-size:1.1em;
+	}
+}
+
+
+.byui-box-logo {
+	position:absolute;
+	right:5px;
+	bottom:0;
+	max-width:70px;
+	
+}

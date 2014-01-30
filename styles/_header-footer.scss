@@ -257,6 +257,12 @@ footer {
 			font-size:110%;
 			text-align:center;
 			border-bottom:#CCC solid 1px;
+			
+			&:first-child {
+				left:50%;
+				margin-left:-117px;
+			}
+			
 			a {
 				display:block;
 				margin:0;
@@ -267,6 +273,7 @@ footer {
 				
 				&.social-icon {
 					float:left;
+					max-width:50px;
 					width:23%;
 					height:auto;
 					
@@ -275,6 +282,8 @@ footer {
 						height:auto;
 					}
 				}
+				
+				
 			}
 			&:first-child {
 				overflow:hidden;
