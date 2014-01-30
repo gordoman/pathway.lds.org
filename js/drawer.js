@@ -30,7 +30,5 @@ function open_side()
 $(document).ready(function() {
 	var main_height = $("#main-container").height();
 	var sidebar_height = $(".pf-sidebar").height();
-	//var diffheight = main_height-sidebar_height
-	//$("#sidebar").css("padding-bottom", diffheight);
 	$("#sidebar").css("height", main_height);
 });
