@@ -127,7 +127,8 @@ body {
   max-height: none;
 }
 .site-navigation ul {
-  float: none;
+  float: left;
+  width: 100%;
 }
 .site-navigation ul li {
   margin-bottom: 0px;
