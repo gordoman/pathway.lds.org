@@ -133,7 +133,7 @@ body {
   text-align: center;
   display: table;
   border-left: #a0a0a0 solid 1px;
-  width: 19.9%;
+  width: 20%;
   height: 50px;
   font-size: 85%;
 }
@@ -506,6 +506,13 @@ footer .navbar-nav {
 .main_carousel {
   padding-top: 29px;
   padding-bottom: 45px;
+}
+
+.item {
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
 }
 
 .carousel-control.left, .carousel-control.right {

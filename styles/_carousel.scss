@@ -3,6 +3,13 @@
 	padding-bottom: 45px;
 }
 
+.item {
+	img{
+		width:100%;
+	}
+	overflow:hidden;
+}
+
 .carousel-control {
 	&.left, {
 		background:none;

@@ -133,7 +133,7 @@ body {
   text-align: center;
   display: table;
   border-left: #a0a0a0 solid 1px;
-  width: 19.9%;
+  width: 20%;
   height: 50px;
   font-size: 85%;
 }
@@ -364,7 +364,7 @@ footer .navbar-nav {
   }
   .footer-links li:first-child {
     overflow: hidden;
-    width: 100%;
+    width: 240px;
     border: none;
     padding: 0;
   }
