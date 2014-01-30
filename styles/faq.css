@@ -364,7 +364,7 @@ footer .navbar-nav {
   }
   .footer-links li:first-child {
     overflow: hidden;
-    width: 100%;
+    width: 240px;
     border: none;
     padding: 0;
   }

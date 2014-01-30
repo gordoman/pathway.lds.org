@@ -99,24 +99,8 @@
 
 
 @media screen and (max-width: 767px) {
-	.quote {
-		font-size:104%;
-	}
 	.testimonial-quote-block {
-		height:465px;
-	}
-	.quote-credit {
-		padding-left:90px;
-		font-size:90%;
-	
-		&.one {
-			padding-top:20px;
-		}
-		&.two {
-			padding-top:35px;
-		}
-		&.three {
-			padding-top:40px;
-		}
+		height:auto;
+		padding:0;
 	}
 }

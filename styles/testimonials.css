@@ -364,7 +364,7 @@ footer .navbar-nav {
   }
   .footer-links li:first-child {
     overflow: hidden;
-    width: 100%;
+    width: 240px;
     border: none;
     padding: 0;
   }
@@ -1398,25 +1398,8 @@ ul li {
   }
 }
 @media screen and (max-width: 767px) {
-  .quote {
-    font-size: 104%;
-  }
-
   .testimonial-quote-block {
-    height: 465px;
-  }
-
-  .quote-credit {
-    padding-left: 90px;
-    font-size: 90%;
-  }
-  .quote-credit.one {
-    padding-top: 20px;
-  }
-  .quote-credit.two {
-    padding-top: 35px;
-  }
-  .quote-credit.three {
-    padding-top: 40px;
+    height: auto;
+    padding: 0;
   }
 }
