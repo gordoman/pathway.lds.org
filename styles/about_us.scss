@@ -1,0 +1,122 @@
+@import "global";
+@import "FunctionLibrary";
+@import "header-footer";
+@import "sidebar";
+@import "content_body";
+@import "BreadCrumb";
+
+
+.underline {
+	 	padding-bottom:15px;
+		margin-bottom:30px;
+	 	border-bottom: $red solid 2px;
+	 }
+
+.feature-vid-title {
+	font-size:150%;
+	font-weight:bold;
+	color:$turquoise;
+	text-transform: none;
+}
+
+.vid-title {
+	font-size: 130%;
+	font-weight:bold;
+	text-transform: uppercase;
+	color:$turquoise;
+}
+
+.container {
+	clear:both;
+}
+
+.video-list {
+	padding:30px 0;
+}
+
+.testimonial-quote-block {
+	overflow:hidden;
+	padding-top:60px;
+	height:565px;
+}
+
+.quote-bubble {
+	position:absolute;
+	padding: 0 10px;
+	z-index:-1;
+}
+
+.quote {
+	float:left;
+	z-index:2;
+	margin-left:20px;
+	width:100%;
+	padding: 20px 20px 0 10px;
+	color:#fff;
+	font-size:138%;
+	line-height:155%;
+}
+
+.quote-credit {
+	float:left;
+	padding-left:110px;
+	font-size:115%;
+	
+	&.one {
+		padding-top:60px;
+	}
+	&.two {
+		padding-top:50px;
+	}
+	&.three {
+		padding-top:60px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.quote {
+		font-size:104%;
+	}
+	.testimonial-quote-block {
+		height:465px;
+	}
+	.quote-credit {
+		padding-left:90px;
+		font-size:90%;
+	
+		&.one {
+			padding-top:20px;
+		}
+		&.two {
+			padding-top:35px;
+		}
+		&.three {
+			padding-top:40px;
+		}
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.quote {
+		font-size:104%;
+	}
+	.testimonial-quote-block {
+		height:465px;
+	}
+	.quote-credit {
+		padding-left:90px;
+		font-size:90%;
+	
+		&.one {
+			padding-top:20px;
+		}
+		&.two {
+			padding-top:35px;
+		}
+		&.three {
+			padding-top:40px;
+		}
+	}
+}
+
