@@ -129,6 +129,7 @@ body {
 .site-navigation ul {
   float: left;
   width: 100%;
+  text-transform: uppercase;
 }
 .site-navigation ul li {
   margin-bottom: 0px;

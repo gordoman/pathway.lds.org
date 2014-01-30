@@ -129,6 +129,7 @@ body {
 .site-navigation ul {
   float: left;
   width: 100%;
+  text-transform: uppercase;
 }
 .site-navigation ul li {
   margin-bottom: 0px;
@@ -471,7 +472,7 @@ body {
   padding-bottom: 200px;
   position: relative;
   background-color: #d9d9d9;
-  border-right: solid white 20px;
+  border-right: solid white 15px;
   padding-left: 30px;
   padding-right: 30px;
 }
