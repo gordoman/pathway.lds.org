@@ -10,6 +10,7 @@
 	padding: 0px;
 	background-color: $pathway-orange !important;
 	box-shadow: 0px 5px 20px rgba(0,0,0,.3);
+	height:129px;
 	border: none;
 	z-index: 5;
 	border-radius: 0;
@@ -239,6 +240,10 @@ footer {
 @media (max-width: 767px) {
 	footer {
 		background: $sidebar-gray;
+	}
+	
+	.pathway-header {
+		height:83px;
 	}
 	
 	.byui-logo {
