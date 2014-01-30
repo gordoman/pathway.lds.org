@@ -340,6 +340,10 @@ footer .navbar-nav {
     text-align: center;
     border-bottom: #CCC solid 1px;
   }
+  .footer-links li:first-child {
+    left: 50%;
+    margin-left: -117px;
+  }
   .footer-links li a {
     display: block;
     margin: 0;
@@ -350,6 +354,7 @@ footer .navbar-nav {
   }
   .footer-links li a.social-icon {
     float: left;
+    max-width: 50px;
     width: 23%;
     height: auto;
   }

@@ -340,6 +340,10 @@ footer .navbar-nav {
     text-align: center;
     border-bottom: #CCC solid 1px;
   }
+  .footer-links li:first-child {
+    left: 50%;
+    margin-left: -117px;
+  }
   .footer-links li a {
     display: block;
     margin: 0;
@@ -350,6 +354,7 @@ footer .navbar-nav {
   }
   .footer-links li a.social-icon {
     float: left;
+    max-width: 50px;
     width: 23%;
     height: auto;
   }
@@ -1332,25 +1337,86 @@ ul li {
 }
 
 .testimonial-quote-block {
+  overflow: hidden;
   padding-top: 60px;
+  height: 565px;
 }
 
 .quote-bubble {
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  padding: 0 10px;
+  z-index: -1;
 }
 
 .quote {
-  position: relative;
+  float: left;
   z-index: 2;
-  margin-top: -205px;
-  padding: 16px;
+  margin-left: 20px;
+  width: 100%;
+  padding: 20px 20px 0 10px;
   color: #fff;
   font-size: 138%;
   line-height: 155%;
 }
 
 .quote-credit {
-  padding: 30px 0 0 90px;
+  float: left;
+  padding-left: 110px;
   font-size: 115%;
+}
+.quote-credit.one {
+  padding-top: 60px;
+}
+.quote-credit.two {
+  padding-top: 50px;
+}
+.quote-credit.three {
+  padding-top: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .quote {
+    font-size: 104%;
+  }
+
+  .testimonial-quote-block {
+    height: 465px;
+  }
+
+  .quote-credit {
+    padding-left: 90px;
+    font-size: 90%;
+  }
+  .quote-credit.one {
+    padding-top: 20px;
+  }
+  .quote-credit.two {
+    padding-top: 35px;
+  }
+  .quote-credit.three {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .quote {
+    font-size: 104%;
+  }
+
+  .testimonial-quote-block {
+    height: 465px;
+  }
+
+  .quote-credit {
+    padding-left: 90px;
+    font-size: 90%;
+  }
+  .quote-credit.one {
+    padding-top: 20px;
+  }
+  .quote-credit.two {
+    padding-top: 35px;
+  }
+  .quote-credit.three {
+    padding-top: 40px;
+  }
 }

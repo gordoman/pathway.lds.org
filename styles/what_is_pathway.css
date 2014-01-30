@@ -340,6 +340,10 @@ footer .navbar-nav {
     text-align: center;
     border-bottom: #CCC solid 1px;
   }
+  .footer-links li:first-child {
+    left: 50%;
+    margin-left: -117px;
+  }
   .footer-links li a {
     display: block;
     margin: 0;
@@ -350,6 +354,7 @@ footer .navbar-nav {
   }
   .footer-links li a.social-icon {
     float: left;
+    max-width: 50px;
     width: 23%;
     height: auto;
   }
@@ -1301,28 +1306,4 @@ ul li {
 }
 .pf-page-header p {
   text-transform: none;
-}
-
-.collapsible {
-  display: block;
-  overflow: hidden;
-}
-
-.p-heading {
-  cursor: pointer;
-}
-.p-heading.turquoise a {
-  color: #1c818f;
-}
-.p-heading.red a {
-  color: #dc4831;
-}
-.p-heading.teal a {
-  color: #7fc7b6;
-}
-.p-heading.green a {
-  color: #a9c038;
-}
-.p-heading.navy_blue a {
-  color: #173e6b;
 }
