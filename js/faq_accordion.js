@@ -1,11 +1,12 @@
+//Collapse all the faqs on pageload
 $(document).ready(function() {
-	//var height = $('p.collapsible').height();
 	$('.collapsible').each(function (){
 		$(this).attr('xheight', $(this).height());
 		$(this).css('height','0px');
 	});
 });
 
+//Expand/collapse the parameter container.
 function expand(object)
 {
 	if (($("#"+object).height()) == 0)
@@ -17,3 +18,4 @@ function expand(object)
 		$("#"+object).animate({ "height": "0px" }, "slow" );
 	}
 }
+

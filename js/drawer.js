@@ -1,6 +1,15 @@
-// JavaScript Document
-var drawerOpen = false;
+/***** Sidebar & Mobile Side Drawer Javascript *****/
 
+//Sets the height of the sidebar to the height of the body content page load.
+$(document).ready(function() {
+	var main_height = $("#main-container").height();
+	var sidebar_height = $(".pf-sidebar").height();
+	$("#sidebar").css("height", main_height);
+});
+
+
+//Script for opening and closing the sidebar on mobile.
+var drawerOpen = false;
 function open_side()
 {
 	if (!drawerOpen)
@@ -35,8 +44,20 @@ function open_side()
 	}
 }
 
+//Sticky sidebar
 $(document).ready(function() {
-	var main_height = $("#main-container").height();
-	var sidebar_height = $(".pf-sidebar").height();
-	$("#sidebar").css("height", main_height);
+	$(window).bind("scroll", function(){
+		var scrollTop = $(window).scrollTop();
+		if (scrollTop > 220)
+		{
+			$("#sideNav").css('position','fixed');
+			$("#sideNav").css('top','0');
+		}
+		else
+		{
+			$("#sideNav").css('position','inherit');
+			$("#sideNav").css('top','0');
+		}
+		
+	});
 });
