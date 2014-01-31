@@ -55,7 +55,17 @@ $(document).ready(function() {
 		// (page width breaks on fixed declaration)
 		$('ul.pf-sidenav').width($('#sideNav').outerWidth());
 		var scrollTop = $(window).scrollTop();
-		if (scrollTop > 220)
+		var bottomTrigger = $(document).height() - 131 - $(window).height();
+
+		if (scrollTop < 220)
+		{
+			$("#sideNav").css('position','inherit');
+			$("#sideNav").css('top','0');
+			$("#sidebar .sidebar-caret").css('left','-54px');
+			$("#sidebar .sidebar-caret.pos1").css('top','-2px');
+			$("#sidebar .sidebar-caret.pos2").css('top','60px');
+		}
+		else if (scrollTop > 220 && scrollTop < bottomTrigger)
 		{
 			$("#sideNav").css('position','fixed');
 			$("#sideNav").css('top','0');
@@ -65,10 +75,12 @@ $(document).ready(function() {
 		}
 		else
 		{
-			$("#sideNav").css('position','inherit');
-			$("#sideNav").css('top','0');
+			$("#sideNav").css('position','absolute');
+			$("#sideNav").css('bottom','0');
+			$("#sideNav").css('margin-bottom','65px');
+			$("#sideNav").css('top','inherit');
 			$("#sidebar .sidebar-caret").css('left','-54px');
-			$("#sidebar .sidebar-caret.pos1").css('top','-2px');
+			$("#sidebar .sidebar-caret.pos1").css('top','15px');
 			$("#sidebar .sidebar-caret.pos2").css('top','60px');
 		}
 	}

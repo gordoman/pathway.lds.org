@@ -552,6 +552,12 @@ footer .navbar-nav {
   margin-left: 97px;
   color: #fff;
 }
+.carousel-caption a {
+  color: #fff;
+}
+.carousel-caption a:hover {
+  text-decoration: none;
+}
 .carousel-caption.red {
   background-color: rgba(220, 72, 49, 0.8);
 }
@@ -670,18 +676,29 @@ div.feature img {
   height: 100px;
   width: 100%;
 }
-.featureMaster span {
+.featureMaster a {
   display: table-cell;
   vertical-align: middle;
   text-transform: uppercase;
-  padding: 0 22px;
+  padding: 0 10px 0 22px;
   color: white;
   font-size: 1.1em;
 }
 
 .byui-box-logo {
   position: absolute;
-  right: 5px;
+  right: 15px;
   bottom: 0;
   max-width: 70px;
+}
+
+.footer-box {
+  margin: 0;
+}
+.footer-box li {
+  padding: 0;
+}
+.footer-box li a {
+  color: #222222;
+  padding: 10px 10px;
 }

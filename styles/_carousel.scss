@@ -43,6 +43,12 @@
 	margin: 43px;
 	margin-left: 97px;
 	color:#fff;
+		a {
+			color:#fff;
+			&:hover {
+				text-decoration:none;
+			}
+		}
 		&.red {
 			background-color: rgba($red, 0.8);
 		}
