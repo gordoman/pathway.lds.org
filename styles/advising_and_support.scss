@@ -1,0 +1,21 @@
+@import "global";
+@import "FunctionLibrary";
+@import "header-footer";
+@import "sidebar";
+@import "content_body";
+@import "BreadCrumb";
+
+
+.s-heading{
+	color:$red;
+	text-transform: uppercase;
+	font-size: 125%;
+	font-weight:bold;
+}
+
+.s-heading2{
+	text-transform: uppercase;
+	font-size: 115%;
+	font-weight: 200;
+
+}
