@@ -1327,3 +1327,33 @@ ul li {
   clear: both;
   padding-bottom: 20px;
 }
+
+.credit-red {
+  font-size: 100%;
+  padding-top: 25px;
+  text-transform: uppercase;
+  color: #cb4830;
+  margin-bottom: 40px;
+}
+
+.quote {
+  font-size: 140%;
+  font-style: italic;
+  color: #cb4830;
+  margin: 0 0 30px 0;
+  padding-left: 50px;
+  float: left;
+  line-height: 160%;
+}
+
+.credit-red {
+  font-weight: bold;
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #cb4830;
+}
+
+.credit-red2 {
+  font-style: italic;
+  color: #cb4830;
+}
