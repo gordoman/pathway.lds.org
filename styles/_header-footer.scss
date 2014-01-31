@@ -10,7 +10,7 @@
 	padding: 0px;
 	background-color: $pathway-orange !important;
 	box-shadow: 0px 5px 20px rgba(0,0,0,.3);
-	height:129px;
+	height:139px;
 	border: none;
 	z-index: 5;
 	border-radius: 0;
@@ -20,7 +20,8 @@
 	display: block;
 	position: relative;
 	left: 50%;
-	margin-left: -93px;
+	margin-left: -97px;
+	width: 160px;
 }
 
 #pathway-logo {
@@ -139,6 +140,7 @@
 .main_toggle{
 	position: absolute;
 	top: -91px;
+	left:0;
 	margin: 33px;
 	margin-left: 12px;
 	z-index: 5;

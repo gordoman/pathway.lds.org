@@ -13,6 +13,10 @@ function open_side()
 		$('ul.drop-down li').each(function (){
 			$(this).attr('onclick', "open_side()");
 			});
+			
+		$('.jump_anchor').each(function (){
+			$(this).attr('onclick', "open_side()");
+			});
 	}
 	else
 	{
@@ -23,6 +27,10 @@ function open_side()
 		$('.drop-down li').each(function (){
 			$(this).attr('onclick'," ");
 			});
+		$('.jump_anchor').each(function (){
+			$(this).attr('onclick'," ");
+			});
+			
 		drawerOpen = false;
 	}
 }
