@@ -1319,7 +1319,7 @@ ul li {
 
 .c-heading {
   font-style: italic;
-  font-size: 140%;
+  font-size: 180%;
 }
 .c-heading.red {
   color: #cb4830;
@@ -1342,7 +1342,7 @@ ul li {
 
 .c-heading3 {
   text-transform: uppercase;
-  font-size: 125%;
+  font-size: 120%;
   font-style: italic;
 }
 .c-heading3.red {
