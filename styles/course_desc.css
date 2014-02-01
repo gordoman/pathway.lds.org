@@ -1319,6 +1319,7 @@ ul li {
 
 .c-heading {
   font-style: italic;
+  font-size: 140%;
 }
 .c-heading.red {
   color: #cb4830;
@@ -1336,5 +1337,17 @@ ul li {
   color: #cb4830;
 }
 .c-heading2.turquoise {
+  color: #1c818f;
+}
+
+.c-heading3 {
+  text-transform: uppercase;
+  font-size: 125%;
+  font-style: italic;
+}
+.c-heading3.red {
+  color: #cb4830;
+}
+.c-heading3.turquoise {
   color: #1c818f;
 }
