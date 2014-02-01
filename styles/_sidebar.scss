@@ -139,6 +139,11 @@ body {
 			padding-left:.8em;
 			font-weight:normal;
 			text-transform:capitalize;
+			li {
+				&:last-child{
+					margin-bottom: 5px;
+				}
+			}
 		}
 				
 		.caret {
@@ -152,6 +157,7 @@ body {
 		}
 		
 		li {
+			margin-bottom: -9px;
 			&.active {
 				.nav {
 					display:block;

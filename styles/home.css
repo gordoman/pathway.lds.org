@@ -102,6 +102,7 @@ body {
   background-color: #b8801a;
   color: white;
   font-weight: bold;
+  letter-spacing: 1.1px;
 }
 
 @media (min-width: 768px) {
@@ -527,6 +528,12 @@ footer .navbar-nav {
 .carousel-control.left, .carousel-control.right {
   background: none;
   z-index: 50;
+}
+.carousel-control .glyphicon-chevron-right {
+  right: 20%;
+}
+.carousel-control .glyphicon-chevron-left {
+  left: 20%;
 }
 
 .carousel-indicators {

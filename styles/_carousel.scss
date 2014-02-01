@@ -18,6 +18,12 @@
 	&.right{
 		@extend .left;
 	}
+	.glyphicon-chevron-right {
+		right: 20%;
+	}
+	.glyphicon-chevron-left {
+		left: 20%;
+	}
 }
 
 
