@@ -1,7 +1,7 @@
 /***** Sidebar & Mobile Side Drawer Javascript *****/
 
 //Sets the height of the sidebar to the height of the body content page load.
-$(window).ready(function() {
+$(window).load(function() {
 	var main_height = $("#main-container").height();
 	var sidebar_height = $(".pf-sidebar").height();
 	$("#sidebar").css("height", main_height);
