@@ -1,9 +1,10 @@
 /***** Sidebar & Mobile Side Drawer Javascript *****/
 
 //Sets the height of the sidebar to the height of the body content page load.
+var sidebar_height;
 $(window).load(function() {
 	var main_height = $("#main-container").height();
-	var sidebar_height = $(".pf-sidebar").height();
+	sidebar_height = $(".pf-sidebar").height();
 	$("#sidebar").css("height", main_height);
 });
 
@@ -26,7 +27,6 @@ function open_side()
 		$('.jump_anchor').each(function (){
 			$(this).attr('onclick', "open_side()");
 		});
-		var sidebar_height = $(".pf-sidebar").height();
 		$("#sidebar").css("height", main_height);
 	}
 	else
@@ -56,7 +56,6 @@ $(document).ready(function() {
 		$('ul.pf-sidenav').width($('#sideNav').outerWidth());
 		var scrollTop = $(window).scrollTop();
 		var bottomTrigger = $(document).height() - 131 - $(window).height();
-
 		if (scrollTop < 220)
 		{
 			$("#sideNav").css('position','inherit');
@@ -65,7 +64,7 @@ $(document).ready(function() {
 			$("#sidebar .sidebar-caret.pos1").css('top','-2px');
 			$("#sidebar .sidebar-caret.pos2").css('top','60px');
 		}
-		else if (scrollTop > 220 && scrollTop < bottomTrigger)
+		else if (scrollTop > 220)
 		{
 			$("#sideNav").css('position','fixed');
 			$("#sideNav").css('top','0');
@@ -73,11 +72,14 @@ $(document).ready(function() {
 			$("#sidebar .sidebar-caret.pos1").css('top','17px');
 			$("#sidebar .sidebar-caret.pos2").css('top','79px');
 		}
-		else
+		
+		var bottomMargin = 68;
+		if (($(window).height() < (sidebar_height + 40 + 131)) && (scrollTop + (sidebar_height + 40 + bottomMargin - $(window).height()) > bottomTrigger))
 		{
+			alert("wtf");
 			$("#sideNav").css('position','absolute');
 			$("#sideNav").css('bottom','0');
-			$("#sideNav").css('margin-bottom','65px');
+			$("#sideNav").css('margin-bottom', bottomMargin+'px');
 			$("#sideNav").css('top','inherit');
 			$("#sidebar .sidebar-caret").css('left','-54px');
 			$("#sidebar .sidebar-caret.pos1").css('top','15px');
