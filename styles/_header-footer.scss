@@ -20,12 +20,37 @@
 	display: block;
 	position: relative;
 	left: 50%;
-	margin-left: -97px;
+	margin-left: -101px;
+	margin-top:8px;
+	height:46px;
 	width: 160px;
+	background:url(../img/logo_retina.png);
+	background-repeat:no-repeat;
+	background-size:150px auto;
+	background-position:center;
 }
 
 #pathway-logo {
-	padding: 12px 0;
+	background:url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:15px center;
+	height:135px;
+	width:450px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+
+only screen and (-o-min-device-pixel-ratio: 2/1),
+
+only screen and (-webkit-min-device-pixel-ratio: 2),
+
+only screen and (min-device-pixel-ratio: 2) {
+	#pathway-logo {
+		background:url(../img/logo_retina.png);
+		background-position:15px center;
+		background-size:280px auto;
+		background-repeat:no-repeat;
+	}
 }
 
 .header_contact {
