@@ -737,6 +737,36 @@ body {
   border-right: 4px solid transparent;
   border-bottom: 0px dotted;
 }
+#sidebar .nav.black li.active {
+  color: #222222;
+}
+#sidebar .nav.black li.active a, #sidebar .nav.black li.active a:hover, #sidebar .nav.black li.active a:visited {
+  color: #222222;
+}
+#sidebar .nav.black li.active .caret {
+  border-top: 6px solid #222222;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
+}
+#sidebar .nav.black li.active .caret.down {
+  border-top: 6px solid #222222;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
+}
+#sidebar .nav.black li.active a:hover .caret {
+  border-top: 6px solid #222222;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
+}
+#sidebar .nav.black li.active a:hover .caret.down {
+  border-top: 6px solid #222222;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 0px dotted;
+}
 #sidebar #sideNav h3 a {
   text-transform: uppercase;
   color: rgba(34, 34, 34, 0.5);

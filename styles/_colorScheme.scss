@@ -19,10 +19,11 @@ $nav2_color: $red;
 $nav3_color: $teal;
 $nav4_color: $green;
 $nav5_color: $navy_blue;
+$nav6_color: $body-text;
 
 // Build Navigation Color List:
-$nav_color_list: $nav1_color, $nav2_color, $nav3_color, $nav4_color, $nav5_color;
-$nav_color_labels: "turquoise", "red", "teal", "green", "navy_blue";
+$nav_color_list: $nav1_color, $nav2_color, $nav3_color, $nav4_color, $nav5_color, $nav6_color;
+$nav_color_labels: "turquoise", "red", "teal", "green", "navy_blue", "black" ;
 
 @for $i from 1 through 5 {
 	.#{nth($nav_color_labels, $i)}{

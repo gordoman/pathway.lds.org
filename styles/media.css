@@ -854,6 +854,117 @@ body {
     border-bottom-color: transparent;
   }
 }
+/* Float Clearing
+ ---------------------------------------------------------------------*/
+.module:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* float clearing for IE6 */
+* html .module {
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+* + html .module {
+  min-height: 1%;
+}
+
+/* Breadcrumb Styles
+ ---------------------------------------------------------------------*/
+.breadCrumbHolder {
+  border-bottom: #a0a0a0 solid 2px;
+  background: #fff;
+}
+
+.breadCrumb {
+  margin: 0 auto;
+  padding: 0;
+  /* float: left; */
+  display: block;
+  height: 30px;
+  overflow: hidden;
+  /* width: 940px;
+  @media (max-width: 992px) {
+  	width:750px;
+  } */
+  padding: 5px;
+}
+.breadCrumb ul {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  display: block;
+}
+.breadCrumb ul li {
+  display: block;
+  float: left;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  line-height: 21px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0px 6px 0px 0;
+  padding: 0px 10px 0px 0;
+  font-size: 85%;
+  background: url(../img/Chevron.gif) no-repeat 100% 0;
+}
+.breadCrumb ul li.first a {
+  height: 16px !important;
+  text-indent: -1000em;
+  width: 16px;
+  padding: 0;
+  margin-top: 2px;
+  overflow: hidden;
+  background: url(../img/IconHome.gif) no-repeat 0 0;
+}
+.breadCrumb ul li.first a:hover {
+  background-position: 0 -16px;
+}
+.breadCrumb ul li.last {
+  background: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.breadCrumb ul li.lowercase {
+  text-transform: none;
+}
+.breadCrumb ul li.pipe-divider {
+  background: url(../img/pipe.png) no-repeat 100% 0;
+}
+.breadCrumb ul li div.chevronOverlay {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.breadCrumb ul li span {
+  display: block;
+  overflow: hidden;
+}
+.breadCrumb ul li a {
+  display: block;
+  color: #222222;
+  position: relative;
+  height: 30px;
+  line-height: 21px;
+  overflow: hidden;
+  float: left;
+}
+
+.chevronOverlay {
+  display: none;
+  background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
+  width: 13px;
+  height: 20px;
+}
+
 /*The first heading on any page*/
 .page-title {
   font-family: Georgia, serif;
@@ -1277,148 +1388,48 @@ ul li {
   text-transform: none;
 }
 
-/* Float Clearing
- ---------------------------------------------------------------------*/
-.module:after {
-  clear: both;
-  content: ".";
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
-
-/* float clearing for IE6 */
-* html .module {
-  height: 1%;
-  overflow: visible;
-}
-
-/* float clearing for IE7 */
-* + html .module {
-  min-height: 1%;
-}
-
-/* Breadcrumb Styles
- ---------------------------------------------------------------------*/
-.breadCrumbHolder {
-  border-bottom: #a0a0a0 solid 2px;
-  background: #fff;
-}
-
-.breadCrumb {
-  margin: 0 auto;
+.category-list {
   padding: 0;
-  /* float: left; */
-  display: block;
-  height: 30px;
-  overflow: hidden;
-  /* width: 940px;
-  @media (max-width: 992px) {
-  	width:750px;
-  } */
-  padding: 5px;
 }
-.breadCrumb ul {
-  margin: 0;
-  padding: 0;
-  height: 30px;
-  display: block;
-}
-.breadCrumb ul li {
-  display: block;
-  float: left;
-  position: relative;
-  height: 30px;
+.category-list a {
+  display: table;
   overflow: hidden;
-  line-height: 21px;
-  text-transform: uppercase;
+  width: 100%;
+  padding: 50px 0;
+  margin-bottom: 0;
+  border-bottom: solid 1px #1b8080;
+  vertical-align: middle;
+}
+.category-list a .caption {
+  display: table-cell;
+  color: #1b8080;
+  font-size: 110%;
   letter-spacing: 1px;
-  margin: 0px 6px 0px 0;
-  padding: 0px 10px 0px 0;
-  font-size: 85%;
-  background: url(../img/Chevron.gif) no-repeat 100% 0;
-}
-.breadCrumb ul li.first a {
-  height: 16px !important;
-  text-indent: -1000em;
-  width: 16px;
-  padding: 0;
-  margin-top: 2px;
-  overflow: hidden;
-  background: url(../img/IconHome.gif) no-repeat 0 0;
-}
-.breadCrumb ul li.first a:hover {
-  background-position: 0 -16px;
-}
-.breadCrumb ul li.last {
-  background: none;
-  margin-right: 0;
-  padding-right: 0;
-}
-.breadCrumb ul li.lowercase {
-  text-transform: none;
-}
-.breadCrumb ul li.pipe-divider {
-  background: url(../img/pipe.png) no-repeat 100% 0;
-}
-.breadCrumb ul li div.chevronOverlay {
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 2;
-}
-.breadCrumb ul li span {
-  display: block;
-  overflow: hidden;
-}
-.breadCrumb ul li a {
-  display: block;
-  color: #222222;
-  position: relative;
-  height: 30px;
-  line-height: 21px;
-  overflow: hidden;
-  float: left;
-}
-
-.chevronOverlay {
-  display: none;
-  background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
-  width: 13px;
-  height: 20px;
-}
-
-.c-heading {
-  font-style: italic;
-  font-size: 180%;
-}
-.c-heading.red {
-  color: #cb4830;
-}
-.c-heading.turquoise {
-  color: #1c818f;
-}
-
-.c-heading2 {
-  text-transform: uppercase;
-  font-size: 125%;
+  padding: 0 30px;
+  width: 100%;
   font-weight: bold;
+  text-transform: uppercase;
 }
-.c-heading2.red {
-  color: #cb4830;
+.category-list a .catg-icon {
+  margin-left: 20px;
+  width: 86px;
+  vertical-align: middle;
 }
-.c-heading2.turquoise {
-  color: #1c818f;
+.category-list a:last-child {
+  border-bottom: none;
+}
+.category-list a:hover {
+  text-decoration: none;
+}
+.category-list a:hover .catg-icon {
+  opacity: 0.5;
+}
+.category-list a:hover .caption {
+  color: #222222;
 }
 
-.c-heading3 {
-  text-transform: uppercase;
-  font-size: 120%;
-  font-style: italic;
-}
-.c-heading3.red {
-  color: #cb4830;
-}
-.c-heading3.turquoise {
-  color: #1c818f;
+@media (max-width: 767px) {
+  .category-list li .caption {
+    padding-left: 10px;
+  }
 }

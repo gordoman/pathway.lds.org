@@ -7,6 +7,41 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		refreshLayout("instant")
 	});
+	
+	//activate the appropriate sidebar title based on scroll
+	$(window).scroll(function() {
+		if ($(window).scrollTop() < $("#advising-section").offset().top)
+		{
+			console.log("Pathway");
+			changeActive("to_pathway");
+		}
+		else if ($(window).scrollTop() < $("#after-section").offset().top)
+		{
+			console.log("Advising");
+			changeActive("to_advising");
+		}
+		else if ($(window).scrollTop() < $("#sp-section").offset().top)
+		{
+			console.log("After Pathway");
+			changeActive("to_after");
+		}
+		else
+		{
+			console.log("SP");
+			changeActive("to_sp");
+		}
+	});
+	
+	function changeActive(id)
+	{
+		if (!$("#"+id).hasClass("active"))
+		{
+			$('.jump_anchor').each(function (){
+				$(this).parent().removeClass("active");
+			});
+			$("#"+id).addClass("active");
+		}
+	}
 });
 
 function refreshLayout(speed)

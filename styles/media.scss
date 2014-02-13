@@ -1,0 +1,56 @@
+@import "global";
+@import "FunctionLibrary";
+@import "header-footer";
+@import "sidebar";
+@import "BreadCrumb";
+@import "content_body";
+
+.category-list {
+	padding:0;
+	
+	a {
+		display:table;
+		overflow:hidden;
+		width:100%;
+		padding:50px 0;
+		margin-bottom:0;
+		border-bottom:solid 1px $teal;
+		vertical-align:middle;
+		.caption {
+			display:table-cell;
+			color:$teal;
+			font-size:110%;
+			letter-spacing:1px;
+			padding:0 30px;
+			width: 100%;
+			font-weight:bold;
+			text-transform:uppercase;
+		}
+		.catg-icon {
+			margin-left:20px;
+			width:86px;
+			vertical-align:middle;
+		}
+		
+		&:last-child {
+			border-bottom:none;
+		}
+		
+		//hover state
+		&:hover {
+			text-decoration: none;
+			.catg-icon {
+				opacity:.5
+			}
+			.caption {
+				color: $body-text;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.category-list li .caption {
+		padding-left:10px;
+	}
+}
