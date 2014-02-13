@@ -76,7 +76,7 @@ $(document).ready(function() {
 		var bottomMargin = 68;
 		if (($(window).height() < (sidebar_height + 40 + 131)) && (scrollTop + (sidebar_height + 40 + bottomMargin - $(window).height()) > bottomTrigger))
 		{
-			alert("wtf");
+			//alert("wtf");
 			$("#sideNav").css('position','absolute');
 			$("#sideNav").css('bottom','0');
 			$("#sideNav").css('margin-bottom', bottomMargin+'px');

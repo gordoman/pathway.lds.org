@@ -319,9 +319,18 @@ footer .navbar-nav {
 }
 
 .byui-logo {
+  display: block;
+  width: 78px;
+  height: 46px;
   float: right;
+  background: url(../img/byui_logo.png);
 }
 
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  .byui-logo {
+    background: url(../img/byui_logo_retina.png);
+  }
+}
 .footer-links {
   padding: 37px 0;
 }
@@ -357,6 +366,8 @@ footer .navbar-nav {
 
   .byui-logo {
     display: block;
+    background: url(../img/byui_logo_retina.png);
+    background-size: 78px 46px;
     float: none;
     margin: auto;
   }
