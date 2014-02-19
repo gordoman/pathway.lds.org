@@ -107,6 +107,10 @@ img {
   float: none !important;
 }
 
+.header-column {
+  margin-bottom: 0;
+}
+
 .faq-bubble {
   vertical-align: top;
 }
@@ -1163,7 +1167,7 @@ ul li {
 .responsive-video-container {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px;
+  padding-top: 35px;
   margin-top: 15px;
   margin-bottom: 20px;
   height: 0;
@@ -1184,6 +1188,13 @@ ul li {
   height: 100%;
 }
 
+/*$red: 	#cb4830;
+$teal: 	#1b8080;
+$gray: 	#666;
+
+$page_header_logo_width: 51px;
+$page_header_logo_offset: 13px;
+$page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*/
 /**************************
    PF-SECTION STYLE SHEET
  **************************/
@@ -1195,10 +1206,6 @@ ul li {
 .hero.no-icon {
   padding-left: 0 !important;
 }
-.hero img {
-  left: 0 !important;
-  top: 6% !important;
-}
 
 .pf-section {
   /*a {color:$red;}*/
@@ -1207,12 +1214,6 @@ ul li {
   	}	*/
   /*	h4 {
   		color: $teal;
-  	}*/
-  /*	p ~ img {
-  		width: 70%;
-  		@media (max-width: 479px) {
-  			width: 100%;
-  		}
   	}*/
 }
 @media (min-width: 480px) {
@@ -1224,7 +1225,7 @@ ul li {
   padding-left: 0 !important;
 }
 .pf-section h5 {
-  color: #666666;
+  color: #666;
 }
 .pf-section p {
   /*text-transform: none;*/
@@ -1262,11 +1263,9 @@ ul li {
   position: relative;
 }
 .pf-page-header img {
-  margin-top: 10px;
+  margin-top: 15px;
   position: absolute;
-  top: 15%;
-  left: -64px;
-  max-width: 51px;
+  margin-left: -64px;
 }
 @media (max-width: 479px) {
   .pf-page-header img {
@@ -1381,13 +1380,13 @@ ul li {
   float: left;
 }
 
-.chevronOverlay {
-  display: none;
-  background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
-  width: 13px;
-  height: 20px;
-}
-
+/*.chevronOverlay
+{
+	display: none;
+	background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
+	width: 13px;
+	height: 20px;
+}*/
 .subheading.underline {
   padding-bottom: 15px;
   margin-bottom: 30px;
@@ -1419,7 +1418,6 @@ ul li {
 .testimonial-quote-block {
   overflow: hidden;
   padding-top: 60px;
-  height: 565px;
 }
 
 .quote-bubble {

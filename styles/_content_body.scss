@@ -319,7 +319,7 @@ ul{
 .responsive-video-container {
 	position: relative; 
 	padding-bottom: 56.25%; 
-	padding-top: 30px; 
+	padding-top: 35px; 
 	margin-top: 15px;
 	margin-bottom: 20px;
 	height: 0; 
@@ -344,13 +344,13 @@ ul{
 // ******************
 //      CONSTANTS
 // ******************
-$red: 	#cb4830;
+/*$red: 	#cb4830;
 $teal: 	#1b8080;
 $gray: 	#666;
 
 $page_header_logo_width: 51px;
 $page_header_logo_offset: 13px;
-$page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
+$page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*/
 
 @mixin box-shadow ($parameters) {
 	-webkit-box-shadow: $parameters;
@@ -363,22 +363,17 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
  **************************/
 .hero {
 	@media (min-width: 480px) {
-		padding-left: $page_header_logo_position;
+		padding-left: 64px;
 	}
 	
 	&.no-icon {
 		padding-left: 0 !important;
 	}
-	
-	img {
-		left: 0 !important;
-		top: 6% !important;
-	}
 }
 
 .pf-section {
 	@media (min-width: 480px) {
-		padding-left: $page_header_logo_position;
+		padding-left: 64px;
 	}
 	&.no-icon{
 		padding-left: 0 !important;
@@ -393,20 +388,14 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
 		color: $teal;
 	}*/	
 	h5 {
-		color: $gray;
+		color: #666;
 	}	
 	p {
 		/*text-transform: none;*/
 		@media (max-width: 479px) {
 			font-size:16px;
 		}
-	}
-/*	p ~ img {
-		width: 70%;
-		@media (max-width: 479px) {
-			width: 100%;
-		}
-	}*/
+}
 	
 	.formula {
 		width:75%;
@@ -436,15 +425,12 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;
 	
 
 	img {
-		margin-top:10px;
-		position: absolute;		
-		top: 15%;
-		left: -$page_header_logo_position;
+		margin-top:15px;
+		position: absolute;
+		margin-left: -64px;
 		@media (max-width: 479px) {
 			display:none;
 		}
-		max-width: $page_header_logo_width;
-
 	}
 	
 	p {

@@ -107,6 +107,10 @@ img {
   float: none !important;
 }
 
+.header-column {
+  margin-bottom: 0;
+}
+
 .faq-bubble {
   vertical-align: top;
 }
@@ -958,9 +962,10 @@ body {
   float: left;
 }
 
-.chevronOverlay {
-  display: none;
-  background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
-  width: 13px;
-  height: 20px;
-}
+/*.chevronOverlay
+{
+	display: none;
+	background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
+	width: 13px;
+	height: 20px;
+}*/
