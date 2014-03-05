@@ -98,6 +98,8 @@
 	.carousel-inner{
 		width:100%;
 		height:288px;
+
+		z-index: 1;
 		
 		img {
 			position:relative;

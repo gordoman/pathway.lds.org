@@ -20,7 +20,7 @@
 	display: block;
 	position: relative;
 	left: 50%;
-	margin-left: -101px;
+	margin-left: -105px;
 	margin-top:8px;
 	height:46px;
 	width: 160px;
@@ -221,6 +221,9 @@ only screen and (min-device-pixel-ratio: 2) {
 		}
 	}
 	
+	.orange-bar {
+		margin: 7.5px -15px;
+	}
 	
 }
 
@@ -353,3 +356,38 @@ only screen and (min-device-pixel-ratio: 2) {
 		}
 	}
 }
+
+/*** Signin Bug Fixes ***/
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background-color: $signin-btn;
+	border-color: $signin-btn;
+}
+
+.dropdown-toggle {
+	.caret {
+		margin-top:-9px;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	
+	.navbar-right .dropdown-menu {
+		left: auto;
+		right: 0;
+	}
+
+	.dropdown-toggle {
+		padding: 6px 5px !important;
+		.caret {
+			margin-top:0;
+		}
+	}
+
+	.signin-btn {
+		padding: 6px;
+	}
+
+}
+/************************/

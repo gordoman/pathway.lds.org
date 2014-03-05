@@ -65,7 +65,7 @@ img {
   display: block;
   position: relative;
   left: 50%;
-  margin-left: -101px;
+  margin-left: -105px;
   margin-top: 8px;
   height: 46px;
   width: 160px;
@@ -310,6 +310,10 @@ img {
     margin-top: 15.5px;
     margin-right: 12px;
   }
+
+  .orange-bar {
+    margin: 7.5px -15px;
+  }
 }
 /****** Footer ******/
 footer {
@@ -418,6 +422,34 @@ footer .navbar-nav {
     border: none;
   }
 }
+/*** Signin Bug Fixes ***/
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #b8801a;
+  border-color: #b8801a;
+}
+
+.dropdown-toggle .caret {
+  margin-top: -9px;
+}
+
+@media (max-width: 767px) {
+  .navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+
+  .dropdown-toggle {
+    padding: 6px 5px !important;
+  }
+  .dropdown-toggle .caret {
+    margin-top: 0;
+  }
+
+  .signin-btn {
+    padding: 6px;
+  }
+}
+/************************/
 /* Float Clearing
  ---------------------------------------------------------------------*/
 .module:after {
@@ -641,6 +673,7 @@ footer .navbar-nav {
   .carousel-inner {
     width: 100%;
     height: 288px;
+    z-index: 1;
   }
   .carousel-inner img {
     position: relative;

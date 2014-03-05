@@ -45,13 +45,45 @@
 <!-- First Top Header Start -->
 <div class="navbar navbar-inverse signIn pathway-header" role="signIn">
   <div class="container">
-    <ul class="nav navbar-nav orange-bar">
+    <ul class="nav orange-bar">
       <li class="header-column visible-xs pull-left">&nbsp;</li>
       <li class="header-column pull-left"> <a id="pathway-logo" class="navbar-brand img-responsive hidden-xs" href="index.htm"></a> <a id="pathway-mobile-logo" class="center-block navbar-brand visible-xs" href="index.htm"></a></li>
       <li class="header-column pull-right"> <a class="header_contact hidden-xs pull-left" href="pages/advising-and-support.html">Contact Us <img src="img/speechbubble.png" width="13" height="11" alt="speech"></a>
-        <form class="navbar-right pull-right">
+       <form class="navbar-right pull-right ng-pristine ng-valid">
+ 
+ 
+<!-- Split button -->
+<div class="btn-group">
+ 
+        <a class="btn signin-btn" style="text-decoration: none;text-transform: none;" href="/Home/ReturnHome">Gordon</a>
+ 
+ 
+        <button type="button" class="btn signin-btn dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Student ID: 10266790
+            </a></li>
+            <li class="divider"></li>
+           
+                <li><a href="/Home/PersonalInfo">Update Personal Info</a></li>
+                <li><a href="/Application/Index/66">Reapply</a></li>
+ 
+            <li class="divider"></li>
+            <li><a style="text-decoration: none;" href="/Account/LogOff">Logout</a></li>
+ 
+ 
+        </ul>
+</div>
+ 
+ 
+ 
+                            </form>
+
+        <!--<form class="navbar-right pull-right">
           <button type="submit" class="btn signin-btn"> SIGN IN </button>
-        </form>
+        </form>-->
       </li>
     </ul>
   </div>
@@ -77,7 +109,7 @@
 
 <!-- myCarousel start -->
 <div class="container main_carousel">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000"> 
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
