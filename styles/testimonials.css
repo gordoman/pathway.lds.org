@@ -1447,11 +1447,6 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
   padding: 30px 0;
 }
 
-.testimonial-quote-block {
-  overflow: hidden;
-  padding-top: 60px;
-}
-
 .quote-bubble {
   position: absolute;
   padding: 0 10px;
@@ -1489,10 +1484,6 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
     font-size: 104%;
   }
 
-  .testimonial-quote-block {
-    height: 470px;
-  }
-
   .quote-credit {
     padding-left: 90px;
     font-size: 90%;
@@ -1505,11 +1496,5 @@ $page_header_logo_position: $page_header_logo_width + $page_header_logo_offset;*
   }
   .quote-credit.three {
     padding-top: 40px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .testimonial-quote-block {
-    height: auto;
-    padding: 0;
   }
 }
