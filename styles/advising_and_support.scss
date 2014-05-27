@@ -19,3 +19,26 @@
 	font-weight: 200;
 
 }
+
+.live_chat_icon {
+	img {
+		width:200px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.live_chat_icon {
+		img {
+			width:180px;
+		}
+	}
+}
+
+
+@media (min-width: 992px) {
+	.live_chat_icon {
+		img {
+			width:250px;
+		}
+	}
+}
